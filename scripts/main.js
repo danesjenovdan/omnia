@@ -25,7 +25,7 @@ function initmap(container) {
 
 function hoursUntilMidnight() {
     var a = new Date;
-    return a.setHours(24), a.setMinutes(0), a.setSeconds(0), a.setMilliseconds(0), Math.ceil((a.getTime() - (new Date).getTime()) / 1e3 / 60 / 60) + 24
+    return a.setHours(24), a.setMinutes(0), a.setSeconds(0), a.setMilliseconds(0), Math.ceil((a.getTime() - (new Date).getTime()) / 1e3 / 60 / 60)
 }
 var map, ajaxRequest, plotlist, plotlayers = [],
     locations = [{
