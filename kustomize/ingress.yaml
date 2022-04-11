@@ -1,22 +1,22 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: omnia-dz-2022
+  name: predcasno-glasovanje-dz-2022
   annotations:
     cert-manager.io/cluster-issuer: "letsencrypt-production"
 spec:
   tls:
     - hosts:
-        - vodici.djnd.si/zemljevid/omnia
-      secretName: omnia-dz-2022-tls
+        - vodici.djnd.si/zemljevid/predcasno-glasovanje
+      secretName: predcasno-glasovanje-dz-2022-tls
   rules:
-    - host: vodici.djnd.si/zemljevid/omnia
+    - host: vodici.djnd.si/zemljevid/predcasno-glasovanje
       http:
         paths:
           - path: /
             pathType: Prefix
             backend:
               service:
-                name: omnia-dz-2022
+                name: predcasno-glasovanje-dz-2022
                 port:
                   number: 80

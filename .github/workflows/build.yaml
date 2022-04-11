@@ -2,7 +2,7 @@ name: Publish Docker image
 on:
   push:
     branches:
-      - 'omnia-dz-2022'
+      - 'predcasno-glasovanje-dz-2022'
 jobs:
   push_to_registry:
     name: Push Docker image to Docker Hub
@@ -22,14 +22,14 @@ jobs:
           username: nologin
           password: ${{ secrets.SCW_SECRET_TOKEN }}
       -
-        name: Build and push omnia-dz-2022
+        name: Build and push predcasno-glasovanje-dz-2022
         uses: docker/build-push-action@v2
         with:
           context: .
           push: true
           tags: |
-            rg.fr-par.scw.cloud/djnd/omnia-dz-2022:${{ github.sha }}
-            rg.fr-par.scw.cloud/djnd/omnia-dz-2022:latest
+            rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-dz-2022:${{ github.sha }}
+            rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-dz-2022:latest
       -
         name: Update image versions in kustomize/kustomization.yaml
         run: |
