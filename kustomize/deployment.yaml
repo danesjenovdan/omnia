@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: omnia-dz-2022
+  labels:
+    app: omnia-dz-2022
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: omnia-dz-2022
+  template:
+    metadata:
+      labels:
+        app: omnia-dz-2022
+    spec:
+      containers:
+      - name: omnia-dz-2022
+        image: rg.fr-par.scw.cloud/djnd/omnia-dz-2022:latest
+        ports:
+        - containerPort: 80
