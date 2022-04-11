@@ -5,7 +5,14 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700,900&subset=latin,latin-ext);
+@import url(https://use.typekit.net/aqx7lip.css);
+
+/*
+barvna shema
+obrobe #dc776b
+svetlejša #f9e4e2
+temnejša #f4cfcb
+*/
 
 .label,
 sub,
@@ -7822,7 +7829,7 @@ button.close {
 .zavesa h2,
 .zavesa h3,
 .zavesa p {
-    font-family: "Titillium Web", sans-serif
+    font-family: 'acumin-pro', sans-serif;
 }
 
 .affix {
@@ -8048,7 +8055,7 @@ button.close {
     background-image: linear-gradient(to left, #6ba8a0 0, #6ba8a0 14.28571429%, #6a1b9a 14.28571429%, #6a1b9a 28.57142857%, #2196f3 28.57142857%, #2196f3 42.85714286%, #8bc34a 42.85714286%, #8bc34a 57.14285714%, #ffeb3b 57.14285714%, #ffeb3b 71.42857143%, #ffb74d 71.42857143%, #ffb74d 85.71428571%, #ef5350 85.71428571%, #ef5350 100%);
     background-image: -webkit-linear-gradient(to left, #6ba8a0 0, #6ba8a0 14.28571429%, #6a1b9a 14.28571429%, #6a1b9a 28.57142857%, #2196f3 28.57142857%, #2196f3 42.85714286%, #8bc34a 42.85714286%, #8bc34a 57.14285714%, #ffeb3b 57.14285714%, #ffeb3b 71.42857143%, #ffb74d 71.42857143%, #ffb74d 85.71428571%, #ef5350 85.71428571%, #ef5350 100%);
     background-image: -ms-linear-gradient(to left, #6ba8a0 0, #6ba8a0 14.28571429%, #6a1b9a 14.28571429%, #6a1b9a 28.57142857%, #2196f3 28.57142857%, #2196f3 42.85714286%, #8bc34a 42.85714286%, #8bc34a 57.14285714%, #ffeb3b 57.14285714%, #ffeb3b 71.42857143%, #ffb74d 71.42857143%, #ffb74d 85.71428571%, #ef5350 85.71428571%, #ef5350 100%) */
-    background-color: #6ba8a0;
+    background-color: #f9e4e2;
 }
 
 #themap {
@@ -8107,7 +8114,7 @@ button.close {
 }
 
 .circle {
-    background-color: #6ba8a0;
+    background-color: #dc776b;
     height: 40px;
     width: 40px;
     padding: 6px;
@@ -8146,7 +8153,7 @@ button.close {
     position: absolute;
     left: 0;
     height: 100%;
-    border: 1px solid #6ba8a0;
+    border: 1px solid #dc776b;
     -webkit-transition-property: all;
     transition-property: all;
     -webkit-transition-duration: 275ms;
@@ -8212,9 +8219,9 @@ button.close {
 }
 
 .button {
-    background: #6ba8a0;
-    box-shadow: 3px 3px 0 #5a8d86;
-    color: #fff;
+    background: #f9e4e2;
+    box-shadow: 3px 3px 0 #dc776b;
+    color: #333;
     width: 100%;
     position: relative;
     margin: 30px auto auto;
@@ -8225,7 +8232,7 @@ button.close {
 }
 
 .button:hover {
-    box-shadow: 0 0 0 #5a8d86;
+    box-shadow: 0 0 0 #dc776b;
     top: 2px;
     left: 2px
 }
