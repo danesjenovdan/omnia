@@ -4,7 +4,7 @@ metadata:
   name: omnia-dz-2022
   annotations:
     cert-manager.io/cluster-issuer: "letsencrypt-production"
-    nginx.ingress.kubernetes.io/rewrite-target: /$1
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
     nginx.ingress.kubernetes.io/server-snippet: |
       location = /zemljevid/omnia {
         return 302 $uri/;
@@ -18,7 +18,7 @@ spec:
     - host: vodici.djnd.si
       http:
         paths:
-          - path: /zemljevid/omnia/(.*)
+          - path: /zemljevid/omnia(/|$)(.*)
             pathType: Prefix
             backend:
               service:
