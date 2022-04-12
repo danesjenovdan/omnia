@@ -8204,11 +8204,11 @@ button.close {
 }
 
 .zavesa a {
-    color: #6ba8a0
+    color: #dd786b
 }
 
 .zavesa a:hover {
-    color: #5a8d86
+    color: #dd786b
 }
 
 @media (max-width:795px) {
