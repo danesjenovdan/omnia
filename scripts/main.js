@@ -9,7 +9,7 @@ function initmap(container) {
         });
     map.setView(new L.LatLng(46.2, 15), 9), map.addLayer(c);
     var d = L.icon({
-        iconUrl: "images/marker.png",
+        iconUrl: "images/marker.svg",
         iconSize: [32, 40],
         iconAnchor: [16, 40],
         popupAnchor: [0, -48]
