@@ -23,10 +23,6 @@ function initmap(container) {
     })
 }
 
-function hoursUntilMidnight() {
-    var a = new Date;
-    return a.setHours(24), a.setMinutes(0), a.setSeconds(0), a.setMilliseconds(0), Math.ceil((a.getTime() - (new Date).getTime()) / 1e3 / 60 / 60)
-}
 var map, ajaxRequest, plotlist, plotlayers = [],
     locations = [{
             ve: 1,
@@ -978,8 +974,9 @@ var map, ajaxRequest, plotlist, plotlayers = [],
             geo_latitude: 15.8719051
         }
     ];
+
 $(document).ready(function () {
-    $(".thetime").text(hoursUntilMidnight()), initmap("themap"), $(".zavesa .button").on("click", function () {
+    initmap("themap"), $(".zavesa .button").on("click", function () {
         $(".zavesa").animate({
             top: -1e3
         }, 600), $(".header .circle").removeClass("hidden")
