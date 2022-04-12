@@ -773,10 +773,10 @@ $(document).ready(function () {
         //     top: 75
         // }, 600)
     }), $("body").on("click", ".tw", function () {
-        var a = "https://twitter.com/intent/tweet?text=" + encodeURIComponent("Imaš manj kot " + timeLeft() + " dni, da sporočiš, kje boš glasoval/-a. Povsod si lahko PROTI škodljivemu zakonu! " + document.location.href);
+        var a = "https://twitter.com/intent/tweet?text=" + encodeURIComponent("Boš 24. aprila na izletu po Sloveniji, pa želiš vseeno glasovati za bolj solidarno prihodnost? 👀\n\nBrez skrbi, to lahko storiš na voliščih OMNIA!\n\nNajbližjega poišči na zemljevidu na spodnji povezavi, še prej pa svojo namero sporoči volilni komisiji! ✊\n\n" + document.location.href);
         return window.open(a, "_blank"), !1
     }), $("body").on("click", ".email", function () {
-        var a = "mailto:?subject=Imaš manj kot " + hoursUntilMidnight() + " ur, da sporočiš, kje boš glasoval/-a.&body=Zemljevid OMNIA volišč za volilce/-ke, ki bodo glasovali/-e v Sloveniji, toda izven volilnega okraja stalnega prebivališča. Povsod si lahko PROTI škodljivemu zakonu!" + document.location.href;
+        var a = "mailto:?subject=Tukaj lahko glasuješ, če boš 24. aprila na izletu po Sloveniji.&body=Živjo!%0D%0A%0D%0AVeš, da lahko na volitvah svoj glas za bolj solidarno prihodnost oddaš tudi, če boš 24. aprila na izletu izven kraja stalnega prebivališča?%0D%0A%0D%0ATo lahko storiš na enem od volišč OMNIA, najbližjega pa lahko najdeš s pomočjo zemljevida na tej povezavi: " + document.location.href + "%0D%0A%0D%0AA ne pozabi, da moraš svojo namero za glasovanje na volišču OMNIA sporočiti volilni komisiji v svojem okraju najkasneje do 20. aprila.%0D%0A%0D%0APovezavo deli tudi z vsemi prijateljicami in prijatelji – saj veš, več nas bo, prej bomo na cilju!%0D%0A%0D%0ALepo bodi.";
         return window.open(a, "_blank"), !1
     })
 });
