@@ -984,10 +984,10 @@ $(document).ready(function () {
             top: -1e3
         }, 600), $(".header .circle").removeClass("hidden")
     }), $("body").on("click", ".tw", function () {
-        var a = "https://twitter.com/intent/tweet?text=" + encodeURIComponent("Imaš manj kot " + hoursUntilMidnight() + " ur, da sporočiš, kje boš glasoval/-a. Povsod si lahko PROTI škodljivemu zakonu! " + document.location.href);
+        var a = "https://twitter.com/intent/tweet?text=" + encodeURIComponent("Če 24. aprila ne boš doma, lahko predčasno glasuješ v torek, 19., sredo, 20., in četrtek, 21. aprila.\n\nVse, kar moraš storiti, je, da se (brez predhodne najave) oglasiš na za to določenem volišču v tvojem okraju.\n\nNajdeš ga lahko na spodnjem zemljevidu. 👇" + document.location.href);
         return window.open(a, "_blank"), !1
     }), $("body").on("click", ".email", function () {
-        var a = "mailto:?subject=Imaš manj kot " + hoursUntilMidnight() + " ur, da sporočiš, kje boš glasoval/-a.&body=Zemljevid OMNIA volišč za volilce/-ke, ki bodo glasovali/-e v Sloveniji, toda izven volilnega okraja stalnega prebivališča. Povsod si lahko PROTI škodljivemu zakonu!" + document.location.href;
+        var a = "mailto:?subject=Kam na predčasne volitve v torek, sredo ali četrtek?&body=Živjo!%0D%0A%0D%0AVeš, da lahko na volitvah svoj glas za bolj solidarno prihodnost oddaš tudi, če 24. aprila ne boš doma?%0D%0A%0D%0AVse, kar moraš storiti, je, da se v torek, 19., sredo, 20., ali četrtek, 21. aprila, (brez predhodne najave) oglasiš na volišču, ki ga je v tvojem okraju določila volilna komisija.%0D%0A%0D%0ASvoje volišče za predčasno glasovanje lahko poiščeš s pomočjo zemljevida na tej povezavi: " + document.location.href + ".%0D%0A%0D%0APovezavo pa deli tudi z vsemi prijateljicami in prijatelji – saj veš, več nas bo, prej bomo na cilju!%0D%0A%0D%0ALepo bodi.";
         return window.open(a, "_blank"), !1
     })
 });
