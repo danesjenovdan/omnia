@@ -19,7 +19,7 @@ function initmap(container) {
             icon: d
         }).addTo(map);
         // TODO removed dostopno invalidom
-        c.bindPopup("this should be 'i'" === b.dostopnoInvalidom ? '<div class="markercontainer"><div><b>' + b.ime + "</b></div><div>" + b.naslov + ", " + b["pošta"] + "</div><div><br>Volilni okraj: <strong>" + b.okraj + '</strong></div><div><br><b>Volišče je dostopno invalidom. :)</b></div><div class="button namera">Izpolni namero!</div></div>' : '<div class="markercontainer"><div><b>' + b.ime + "</b></div><div>" + b.naslov + ", " + b["pošta"] + "</div><div><br>Volilni okraj: <strong>" + b.okraj + '</strong></div><div><br><b>Ne vemo, ali je volišče dostopno invalidom. :(</b></div><div class="button namera">Izpolni namero!</div></div>')
+        c.bindPopup("this should be 'i'" === b.dostopnoInvalidom ? '<div class="markercontainer"><div><b>' + b.ime + "</b></div><div>" + b.naslov + ", " + b["pošta"] + "</div><div><br>Volilni okraj: <strong>" + b.okraj + '</strong></div><div><br><b>Volišče je dostopno invalidom. :)</b></div></div>' : '<div class="markercontainer"><div><b>' + b.ime + "</b></div><div>" + b.naslov + ", " + b["pošta"] + "</div><div><br>Volilni okraj: <strong>" + b.okraj + '</strong></div><div><br><b>Ne vemo, ali je volišče dostopno invalidom. :(</b></div></div>')
     })
 }
 
@@ -983,11 +983,6 @@ $(document).ready(function () {
         $(".zavesa").animate({
             top: -1e3
         }, 600), $(".header .circle").removeClass("hidden")
-    }), $("#themap").on("click", ".namera", function () {
-        window.open("https://e-uprava.gov.si/podrocja/vloge/vloga.html?id=5206 ", "_blank");
-        // $(".stepone").addClass("hidden"), $(".steptwo").removeClass("hidden"), $(".header .circle").addClass("hidden"), $(".zavesa").animate({
-        //     top: 75
-        // }, 600)
     }), $("body").on("click", ".tw", function () {
         var a = "https://twitter.com/intent/tweet?text=" + encodeURIComponent("Imaš manj kot " + hoursUntilMidnight() + " ur, da sporočiš, kje boš glasoval/-a. Povsod si lahko PROTI škodljivemu zakonu! " + document.location.href);
         return window.open(a, "_blank"), !1
