@@ -988,9 +988,6 @@ $(document).ready(function () {
         // $(".stepone").addClass("hidden"), $(".steptwo").removeClass("hidden"), $(".header .circle").addClass("hidden"), $(".zavesa").animate({
         //     top: 75
         // }, 600)
-    }), $("body").on("click", ".fb", function () {
-        var a = "https://www.facebook.com/dialog/share?app_id=301375193309601&display=popup&href=" + encodeURIComponent(document.location.href) + "&redirect_uri=" + encodeURIComponent(document.location.href) + "&ref=responsive";
-        return window.open(a, "_blank"), !1
     }), $("body").on("click", ".tw", function () {
         var a = "https://twitter.com/intent/tweet?text=" + encodeURIComponent("Imaš manj kot " + hoursUntilMidnight() + " ur, da sporočiš, kje boš glasoval/-a. Povsod si lahko PROTI škodljivemu zakonu! " + document.location.href);
         return window.open(a, "_blank"), !1
