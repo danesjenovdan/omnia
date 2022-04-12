@@ -23,9 +23,14 @@ function initmap(container) {
     })
 }
 
-function hoursUntilMidnight() {
-    var a = new Date;
-    return a.setHours(24), a.setMinutes(0), a.setSeconds(0), a.setMilliseconds(0), Math.ceil((a.getTime() - (new Date).getTime()) / 1e3 / 60 / 60)
+function timeLeft() {
+    // deadline za oddat namero
+    const deadline = new Date(2022, 3, 20, 24, 0, 0, 0)
+    const now = new Date
+    // calculate difference in DAYS
+    const t2 = deadline.getTime();
+    const t1 = now.getTime();
+    return Math.floor((t2-t1)/(24*3600*1000));
 }
 var map, ajaxRequest, plotlist, plotlayers = [],
     locations = [{
@@ -758,20 +763,17 @@ var map, ajaxRequest, plotlist, plotlayers = [],
         }
     ];
 $(document).ready(function () {
-    $(".thetime").text(hoursUntilMidnight()), initmap("themap"), $(".zavesa .button").on("click", function () {
+    $(".thetime").text(timeLeft()), initmap("themap"), $(".zavesa .button").on("click", function () {
         $(".zavesa").animate({
             top: -1e3
         }, 600), $(".header .circle").removeClass("hidden")
     }), $("#themap").on("click", ".namera", function () {
-        window.open("https://e-uprava.gov.si/podrocja/vloge/vloga.html?id=5206 ", "_blank");
+        window.open("https://e-uprava.gov.si/podrocja/vloge/vloga.html?id=5626 ", "_blank");
         // $(".stepone").addClass("hidden"), $(".steptwo").removeClass("hidden"), $(".header .circle").addClass("hidden"), $(".zavesa").animate({
         //     top: 75
         // }, 600)
-    }), $("body").on("click", ".fb", function () {
-        var a = "https://www.facebook.com/dialog/share?app_id=301375193309601&display=popup&href=" + encodeURIComponent(document.location.href) + "&redirect_uri=" + encodeURIComponent(document.location.href) + "&ref=responsive";
-        return window.open(a, "_blank"), !1
     }), $("body").on("click", ".tw", function () {
-        var a = "https://twitter.com/intent/tweet?text=" + encodeURIComponent("Imaš manj kot " + hoursUntilMidnight() + " ur, da sporočiš, kje boš glasoval/-a. Povsod si lahko PROTI škodljivemu zakonu! " + document.location.href);
+        var a = "https://twitter.com/intent/tweet?text=" + encodeURIComponent("Imaš manj kot " + timeLeft() + " dni, da sporočiš, kje boš glasoval/-a. Povsod si lahko PROTI škodljivemu zakonu! " + document.location.href);
         return window.open(a, "_blank"), !1
     }), $("body").on("click", ".email", function () {
         var a = "mailto:?subject=Imaš manj kot " + hoursUntilMidnight() + " ur, da sporočiš, kje boš glasoval/-a.&body=Zemljevid OMNIA volišč za volilce/-ke, ki bodo glasovali/-e v Sloveniji, toda izven volilnega okraja stalnega prebivališča. Povsod si lahko PROTI škodljivemu zakonu!" + document.location.href;
