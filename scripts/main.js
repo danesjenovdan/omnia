@@ -255,8 +255,8 @@ var map, ajaxRequest, plotlist, plotlayers = [],
             naslov: "Partizanska cesta 4",
             "pošta": "6210 Sežana",
             skupaj: "Partizanska cesta 4 6210 Sežana",
-            geo_longitude: 45.5142898,
-            geo_latitude: 13.5908455
+            geo_longitude: 45.71000719986846,
+            geo_latitude: 13.874054640256531
         },
         {
             ve: 2,
