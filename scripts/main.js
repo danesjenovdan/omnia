@@ -221,7 +221,7 @@ var map, ajaxRequest, plotlist, plotlayers = [],
         },
         {
             ve: 2,
-            ovk: "OVK Koper 1",
+            ovk: "OVK Koper 1, 2",
             okraj: "KOPER",
             "sedežVoliščaOmnia": "UE Koper, Piranska cesta 2, 6000 Koper",
             dostopnoInvalidom: "i",
@@ -229,21 +229,8 @@ var map, ajaxRequest, plotlist, plotlayers = [],
             naslov: "Piranska cesta 2",
             "pošta": "6000 Koper",
             skupaj: "Piranska cesta 2 6000 Koper",
-            geo_longitude: 45.547862,
-            geo_latitude: 13.7314358
-        },
-        {
-            ve: 2,
-            ovk: "OVK Koper 2",
-            okraj: "KOPER",
-            "sedežVoliščaOmnia": "UE Koper, Piranska cesta 2, 6000 Koper",
-            dostopnoInvalidom: "i",
-            ime: "UE Koper",
-            naslov: "Piranska cesta 2",
-            "pošta": "6000 Koper",
-            skupaj: "Piranska cesta 2 6000 Koper",
-            geo_longitude: 45.5444314,
-            geo_latitude: 13.7259752
+            geo_longitude: 45.544337937992076,
+            geo_latitude: 13.726027895471685
         },
         {
             ve: 2,
