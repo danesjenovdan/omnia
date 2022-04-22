@@ -19,7 +19,7 @@ function initmap(container) {
             icon: d
         }).addTo(map);
         // TODO removed dostopno invalidom
-        c.bindPopup("i" === b.dostopnoInvalidom ? '<div class="markercontainer"><div><b>' + b.ime + "</b></div><div>" + b.naslov + ", " + b["pošta"] + "</div><div><br>Volilni okraj: <strong>" + b.okraj + '</strong></div><div><br><b>Volišče je dostopno invalidom. :)</b></div><div class="button namera">Izpolni namero!</div></div>' : '<div class="markercontainer"><div><b>' + b.ime + "</b></div><div>" + b.naslov + ", " + b["pošta"] + "</div><div><br>Volilni okraj: <strong>" + b.okraj + '</strong></div><div><br><b>Ne vemo, ali je volišče dostopno invalidom. :(</b></div><div class="button namera">Izpolni namero!</div></div>')
+        c.bindPopup("i" === b.dostopnoInvalidom ? '<div class="markercontainer"><div><b>' + b.ime + "</b></div><div>" + b.naslov + ", " + b["pošta"] + "</div><div><br>Volilni okraj: <strong>" + b.okraj + '</strong></div><div><br><b>Volišče je dostopno invalidom. :)</b></div></div>' : '<div class="markercontainer"><div><b>' + b.ime + "</b></div><div>" + b.naslov + ", " + b["pošta"] + "</div><div><br>Volilni okraj: <strong>" + b.okraj + '</strong></div><div><br><b>Ne vemo, ali je volišče dostopno invalidom. :(</b></div></div>')
     })
 }
 
@@ -280,14 +280,14 @@ var map, ajaxRequest, plotlist, plotlayers = [],
             ve: 3,
             ovk: "",
             okraj: "LJUBLJANA",
-            "sedežVoliščaOmnia": "UE Ljubljana, Linhartova cesta 13, 1000 Ljubljana",
+            "sedežVoliščaOmnia": "Gospodarsko razstavišče, Dunajska c. 18, 1000 Ljubljana",
             dostopnoInvalidom: "?",
-            ime: "UE Ljubljana",
-            naslov: "Linhartova cesta 13",
+            ime: "Gospodarsko razstavišče",
+            naslov: "Dunajska c. 18",
             "pošta": "1000 Ljubljana",
-            skupaj: "Linhartova cesta 13 1000 Ljubljana",
-            geo_longitude: 46.05628,
-            geo_latitude: 14.5332483
+            skupaj: "Dunajska c. 18 1000 Ljubljana",
+            geo_longitude: 46.06207669216969,
+            geo_latitude: 14.50860340890791
         },
         {
             ve: 4,
