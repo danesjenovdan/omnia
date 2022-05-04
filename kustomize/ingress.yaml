@@ -8,7 +8,7 @@ metadata:
     nginx.ingress.kubernetes.io/configuration-snippet: |
       rewrite ^(/zemljevid/predcasno-glasovanje)$ $1/ redirect; # add trailing slash
 spec:
-ingressClassName: nginx
+  ingressClassName: nginx
   tls:
     - hosts:
         - vodici.djnd.si
