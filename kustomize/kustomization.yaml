@@ -1,11 +1,11 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-namespace: omnia-dz-2022
+namespace: vodici
 resources:
   - deployment.yaml
   - service.yaml
   - ingress.yaml
 images:
-  - name: omnia-dz-2022
-    newName: rg.fr-par.scw.cloud/djnd/omnia-dz-2022
-    newTag: 'd1fd286c5b2228c7e1a675802a1b0c464ce526d4'
+  - name: omnia-predsednik-2022
+    newName: rg.fr-par.scw.cloud/djnd/omnia-predsednik-2022
+    newTag: 'latest'
