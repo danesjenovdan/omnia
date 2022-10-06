@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: predcasno-glasovanje-dz-2022
+  name: predcasno-glasovanje-predsednik-2022
   labels:
-    app: predcasno-glasovanje-dz-2022
+    app: predcasno-glasovanje-predsednik-2022
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: predcasno-glasovanje-dz-2022
+      app: predcasno-glasovanje-predsednik-2022
   template:
     metadata:
       labels:
-        app: predcasno-glasovanje-dz-2022
+        app: predcasno-glasovanje-predsednik-2022
     spec:
       containers:
-      - name: predcasno-glasovanje-dz-2022
-        image: rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-dz-2022:latest
-        ports:
-        - containerPort: 80
+        - name: predcasno-glasovanje-predsednik-2022
+          image: rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-predsednik-2022:latest
+          ports:
+            - containerPort: 80

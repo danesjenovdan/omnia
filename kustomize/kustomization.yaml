@@ -6,6 +6,6 @@ resources:
   - service.yaml
   - ingress.yaml
 images:
-  - name: predcasno-glasovanje-dz-2022
-    newName: rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-dz-2022
-    newTag: '503289cb93e57cab6c8e752939a24d4f141c9dfe'
+  - name: predcasno-glasovanje-predsednik-2022
+    newName: rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-predsednik-2022
+    newTag: 'latest'
