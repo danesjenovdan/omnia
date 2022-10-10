@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: omnia-dz-2022
-        image: rg.fr-par.scw.cloud/djnd/omnia-dz-2022:latest
+        image: omnia-dz-2022
         ports:
         - containerPort: 80
