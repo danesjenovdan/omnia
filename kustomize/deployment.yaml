@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: omnia-predsednik-2022
-          image: rg.fr-par.scw.cloud/djnd/omnia-predsednik-2022:latest
+          image: omnia-predsednik-2022
           ports:
             - containerPort: 80
