@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: predcasno-glasovanje-predsednik-2022
-          image: rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-predsednik-2022:latest
+          image: predcasno-glasovanje-predsednik-2022
           ports:
             - containerPort: 80
