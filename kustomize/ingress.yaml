@@ -7,6 +7,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /$2
     nginx.ingress.kubernetes.io/configuration-snippet: |
       rewrite ^(/zemljevid/predcasno-glasovanje)$ $1/ redirect; # add trailing slash
+      rewrite ^(/zemljevid/predcasno-glasovanje/predsedniske/1)$ $1/ redirect; # add trailing slash
 spec:
   ingressClassName: nginx
   tls:
@@ -18,6 +19,13 @@ spec:
       http:
         paths:
           - path: /zemljevid/predcasno-glasovanje(/|$)(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: predcasno-glasovanje-predsednik-2022
+                port:
+                  number: 80
+          - path: /zemljevid/predcasno-glasovanje/predsedniske/1(/|$)(.*)
             pathType: Prefix
             backend:
               service:
