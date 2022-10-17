@@ -19,7 +19,7 @@ function initmap(container) {
             icon: d
         }).addTo(map);
         // TODO removed dostopno invalidom
-        c.bindPopup("i" === b.dostopnoInvalidom ? '<div class="markercontainer"><div><b>' + b.ime + "</b></div><div>" + b.naslov + ", " + b["pošta"] + "</div><div><br>Volilni okraj: <strong>" + b.okraj + '</strong></div><div><br><b>Volišče je dostopno invalidom. :)</b></div></div>' : '<div class="markercontainer"><div><b>' + b.ime + "</b></div><div>" + b.naslov + ", " + b["pošta"] + "</div><div><br>Volilni okraj: <strong>" + b.okraj + '</strong></div><div><br><b>Ne vemo, ali je volišče dostopno invalidom. :(</b></div></div>')
+        c.bindPopup("i" === b.dostopnoInvalidom ? '<div class="markercontainer"><div><b>' + b.ime + "</b></div><div>" + b.naslov + ", " + b["pošta"] + "</div><div><br>Volilni okraj: <strong>" + b.okraj + '</strong></div><div><br><b>Volišče je dostopno invalidom. :)</b></div></div>' : '<div class="markercontainer"><div><b>' + b.ime + "</b></div><div>" + b.naslov + ", " + b["pošta"] + "</div><div><br>Volilni okraj: <strong>" + b.okraj + '</strong></div><div><br><b>Ne vemo, ali je volišče dostopno invalidom. :(</b></div><br><div><b>Oddaj vlogo <a href="https://e-uprava.gov.si/podrocja/vloge/vloga.html?id=6005" target="_blank" rel="noopener noreferrer">z digitalnim potrdilom</a> ali <a href="https://e-uprava.gov.si/podrocja/vloge/vloga.html?id=6006" target="_blank" rel="noopener noreferrer">brez</a>.</b></div></div>')
     })
 }
 
