@@ -8,4 +8,4 @@ resources:
 images:
   - name: omnia-predsednik-2022
     newName: rg.fr-par.scw.cloud/djnd/omnia-predsednik-2022
-    newTag: 'f33282beaf197fa01a75598bb76bdc15d1fb10c5'
+    newTag: 'b11345b496fa249b13abc660bbbc2910c48164eb'
