@@ -6,6 +6,6 @@ resources:
   - service.yaml
   - ingress.yaml
 images:
-  - name: predcasno-glasovanje-predsednik-2022
-    newName: rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-predsednik-2022
-    newTag: 'a3e6fe5a4062513392291580333f046aec0d64a0'
+  - name: predcasno-glasovanje-evropske-2024
+    newName: rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-evropske-2024
+    newTag: 'latest'

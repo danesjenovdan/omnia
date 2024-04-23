@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: predcasno-glasovanje-predsednik-2022
+  name: predcasno-glasovanje-evropske-2024
 spec:
   selector:
-    app: predcasno-glasovanje-predsednik-2022
+    app: predcasno-glasovanje-evropske-2024
   ports:
     - protocol: TCP
       port: 80

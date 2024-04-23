@@ -2,7 +2,7 @@ name: Build and publish Docker image
 on:
   push:
     branches:
-      - 'predcasno-glasovanje-predsednik-2022'
+      - 'predcasno-glasovanje-evropske-2024'
 jobs:
   push_to_registry:
     name: Build and push Docker image to registry
@@ -27,8 +27,8 @@ jobs:
           context: .
           push: true
           tags: |
-            rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-predsednik-2022:${{ github.sha }}
-            rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-predsednik-2022:latest
+            rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-evropske-2024:${{ github.sha }}
+            rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-evropske-2024:latest
 
       - name: Update image versions in kustomize/kustomization.yaml
         run: |

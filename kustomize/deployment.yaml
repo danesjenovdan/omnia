@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: predcasno-glasovanje-predsednik-2022
+  name: predcasno-glasovanje-evropske-2024
   labels:
-    app: predcasno-glasovanje-predsednik-2022
+    app: predcasno-glasovanje-evropske-2024
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: predcasno-glasovanje-predsednik-2022
+      app: predcasno-glasovanje-evropske-2024
   template:
     metadata:
       labels:
-        app: predcasno-glasovanje-predsednik-2022
+        app: predcasno-glasovanje-evropske-2024
     spec:
       containers:
-        - name: predcasno-glasovanje-predsednik-2022
-          image: predcasno-glasovanje-predsednik-2022
+        - name: predcasno-glasovanje-evropske-2024
+          image: predcasno-glasovanje-evropske-2024
           ports:
             - containerPort: 80
