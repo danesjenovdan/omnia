@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: omnia-predsednik-2022
+  name: omnia-evropske-2024
   labels:
-    app: omnia-predsednik-2022
+    app: omnia-evropske-2024
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: omnia-predsednik-2022
+      app: omnia-evropske-2024
   template:
     metadata:
       labels:
-        app: omnia-predsednik-2022
+        app: omnia-evropske-2024
     spec:
       containers:
-        - name: omnia-predsednik-2022
-          image: omnia-predsednik-2022
+        - name: omnia-evropske-2024
+          image: omnia-evropske-2024
           ports:
             - containerPort: 80

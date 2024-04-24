@@ -6,6 +6,6 @@ resources:
   - service.yaml
   - ingress.yaml
 images:
-  - name: omnia-predsednik-2022
-    newName: rg.fr-par.scw.cloud/djnd/omnia-predsednik-2022
-    newTag: '7ade788af54dc9a09849722348268882b0b536de'
+  - name: omnia-evropske-2024
+    newName: rg.fr-par.scw.cloud/djnd/omnia-evropske-2024
+    newTag: 'latest'
