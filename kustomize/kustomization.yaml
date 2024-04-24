@@ -8,4 +8,4 @@ resources:
 images:
   - name: omnia-evropske-2024
     newName: rg.fr-par.scw.cloud/djnd/omnia-evropske-2024
-    newTag: 'latest'
+    newTag: 'e31d8a9a2684eeb102a52aeacf75a7b9590bc8ee'
