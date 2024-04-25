@@ -981,10 +981,10 @@ $(document).ready(function () {
             top: -1e3
         }, 600), $(".header .circle").removeClass("hidden")
     }), $("body").on("click", ".tw", function () {
-        var a = "https://twitter.com/intent/tweet?text=" + encodeURIComponent("Če 23. oktobra ne boš doma, lahko predčasno glasuješ v torek, 18., sredo, 19., in četrtek, 20. oktobra.\n\nVse, kar moraš storiti, je, da se (brez predhodne najave) oglasiš na za to določenem volišču v tvojem okraju.\n\nNajdeš ga lahko na spodnjem zemljevidu. 👇" + document.location.href);
+        var a = "https://twitter.com/intent/tweet?text=" + encodeURIComponent("Če 9. junija ne boš doma, lahko predčasno glasuješ v torek, 4., sredo, 5., in četrtek, 6. junija.\n\nVse, kar moraš storiti, je, da se (brez predhodne najave) oglasiš na za to določenem volišču v tvojem okraju.\n\nNajdeš ga lahko na spodnjem zemljevidu. 👇" + document.location.href);
         return window.open(a, "_blank"), !1
     }), $("body").on("click", ".email", function () {
-        var a = "mailto:?subject=Kam na predčasne volitve v torek, sredo ali četrtek?&body=Živjo!%0D%0A%0D%0AVeš, da lahko na volitvah svoj glas za bolj solidarno prihodnost oddaš tudi, če 23. oktobra ne boš doma?%0D%0A%0D%0AVse, kar moraš storiti, je, da se v torek, 18., sredo, 19., in četrtek, 20. oktobra, (brez predhodne najave) oglasiš na volišču, ki ga je v tvojem okraju določila volilna komisija.%0D%0A%0D%0ASvoje volišče za predčasno glasovanje lahko poiščeš s pomočjo zemljevida na tej povezavi: " + document.location.href + ".%0D%0A%0D%0APovezavo pa deli tudi z vsemi prijateljicami in prijatelji – saj veš, več nas bo, prej bomo na cilju!%0D%0A%0D%0ALepo bodi.";
+        var a = "mailto:?subject=Kam na predčasne volitve v torek, sredo ali četrtek?&body=Živjo!%0D%0A%0D%0AVeš, da lahko na volitvah svoj glas oddaš tudi, če 9. junija ne boš doma?%0D%0A%0D%0AVse, kar moraš storiti, je, da se v torek, 4., sredo, 5., in četrtek, 6. junija, (brez predhodne najave) oglasiš na volišču, ki ga je v tvojem okraju določila volilna komisija.%0D%0A%0D%0ASvoje volišče za predčasno glasovanje lahko poiščeš s pomočjo zemljevida na tej povezavi: " + document.location.href + ".%0D%0A%0D%0APovezavo pa deli tudi z vsemi prijateljicami in prijatelji – saj veš, več nas bo, prej bomo na cilju!%0D%0A%0D%0ALepo bodi.";
         return window.open(a, "_blank"), !1
     })
 });
