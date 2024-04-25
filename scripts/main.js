@@ -27,7 +27,7 @@ function initmap(container) {
             markup += '<div><br><b>Ne vemo, ali je volišče dostopno invalidom. :(</b></div>'
         }
 
-        markup += '<div><br><b>Oddaj vlogo <a href="https://e-uprava.gov.si/podrocja/vloge/vloga.html?id=6005" target="_blank" rel="noopener noreferrer">z digitalnim potrdilom</a> ali <a href="https://e-uprava.gov.si/podrocja/vloge/vloga.html?id=6006" target="_blank" rel="noopener noreferrer">brez</a>.</b></div>'
+        markup += '<div><br><b>Oddaj vlogo <a href="https://e-uprava.gov.si/si/podrocja/vloge/vloga.html?id=7505" target="_blank" rel="noopener noreferrer">z digitalnim potrdilom</a> ali <a href="https://e-uprava.gov.si/si/podrocja/vloge/vloga.html?id=7506" target="_blank" rel="noopener noreferrer">brez</a>.</b></div>'
 
         markup += '</div>'
 
@@ -37,7 +37,7 @@ function initmap(container) {
 
 function timeLeft() {
     // deadline za oddat namero
-    const deadline = new Date(2022, 9, 19, 24, 0, 0, 0)
+    const deadline = new Date(2024, 5, 5, 24, 0, 0, 0)
     const now = new Date
     // calculate difference in DAYS
     const t2 = deadline.getTime();
@@ -770,22 +770,22 @@ var map, ajaxRequest, plotlist, plotlayers = [],
             geo_latitude: 15.8719051
         }
     ];
-    
+
 $(document).ready(function () {
     $(".thetime").text(timeLeft()), initmap("themap"), $(".zavesa .button").on("click", function () {
         $(".zavesa").animate({
             top: -1e3
         }, 600), $(".header .circle").removeClass("hidden")
     }), $("#themap").on("click", ".namera", function () {
-        window.open("https://e-uprava.gov.si/podrocja/vloge/vloga.html?id=5626 ", "_blank");
+        // window.open("https://e-uprava.gov.si/podrocja/vloge/vloga.html?id=5626 ", "_blank");
         // $(".stepone").addClass("hidden"), $(".steptwo").removeClass("hidden"), $(".header .circle").addClass("hidden"), $(".zavesa").animate({
         //     top: 75
         // }, 600)
     }), $("body").on("click", ".tw", function () {
-        var a = "https://twitter.com/intent/tweet?text=" + encodeURIComponent("Boš 23. oktobra na izletu po Sloveniji, pa želiš vseeno glasovati za bolj solidarno prihodnost? 👀\n\nBrez skrbi, to lahko storiš na voliščih OMNIA!\n\nNajbližjega poišči na zemljevidu na spodnji povezavi, še prej pa svojo namero sporoči volilni komisiji! ✊\n\n" + document.location.href);
+        var a = "https://twitter.com/intent/tweet?text=" + encodeURIComponent("Boš 9. junija na izletu po Sloveniji, pa želiš vseeno glasovati? 👀\n\nBrez skrbi, to lahko storiš na voliščih OMNIA!\n\nNajbližjega poišči na zemljevidu na spodnji povezavi, še prej pa svojo namero sporoči volilni komisiji! ✊\n\n" + document.location.href);
         return window.open(a, "_blank"), !1
     }), $("body").on("click", ".email", function () {
-        var a = "mailto:?subject=Tukaj lahko glasuješ, če boš 23. oktobra na izletu po Sloveniji.&body=Živjo!%0D%0A%0D%0AVeš, da lahko na volitvah svoj glas za bolj solidarno prihodnost oddaš tudi, če boš 23. oktobra na izletu izven kraja stalnega prebivališča?%0D%0A%0D%0ATo lahko storiš na enem od volišč OMNIA, najbližjega pa lahko najdeš s pomočjo zemljevida na tej povezavi: " + document.location.href + "%0D%0A%0D%0AA ne pozabi, da moraš svojo namero za glasovanje na volišču OMNIA sporočiti volilni komisiji v svojem okraju najkasneje do 19. oktobra.%0D%0A%0D%0APovezavo deli tudi z vsemi prijateljicami in prijatelji – saj veš, več nas bo, prej bomo na cilju!%0D%0A%0D%0ALepo bodi.";
+        var a = "mailto:?subject=Tukaj lahko glasuješ, če boš 9. junija na izletu po Sloveniji.&body=Živjo!%0D%0A%0D%0AVeš, da lahko na volitvah svoj glas oddaš tudi, če boš 9. junija na izletu izven kraja stalnega prebivališča?%0D%0A%0D%0ATo lahko storiš na enem od volišč OMNIA, najbližjega pa lahko najdeš s pomočjo zemljevida na tej povezavi: " + document.location.href + "%0D%0A%0D%0AA ne pozabi, da moraš svojo namero za glasovanje na volišču OMNIA sporočiti volilni komisiji v svojem okraju najkasneje do 5. junija.%0D%0A%0D%0APovezavo deli tudi z vsemi prijateljicami in prijatelji – saj veš, več nas bo, prej bomo na cilju!%0D%0A%0D%0ALepo bodi.";
         return window.open(a, "_blank"), !1
     })
 });
