@@ -27,7 +27,7 @@ function initmap(container) {
             markup += '<div><br><b>Ne vemo, ali je volišče dostopno invalidom. :(</b></div>'
         }
 
-        markup += '<div><br><b>Oddaj vlogo <a href="https://e-uprava.gov.si/si/podrocja/vloge/vloga.html?id=7505" target="_blank" rel="noopener noreferrer">z digitalnim potrdilom</a> ali <a href="https://e-uprava.gov.si/si/podrocja/vloge/vloga.html?id=7506" target="_blank" rel="noopener noreferrer">brez</a>.</b></div>'
+        markup += '<div><br><b>Oddaj vlogo <a href="https://e-uprava.gov.si/si/podrocja/vloge/vloga.html?id=7685" target="_blank" rel="noopener noreferrer">z digitalnim potrdilom</a> ali <a href="https://e-uprava.gov.si/si/podrocja/vloge/vloga.html?id=7686" target="_blank" rel="noopener noreferrer">brez</a>.</b></div>'
 
         markup += '</div>'
 
