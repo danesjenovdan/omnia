@@ -1,26 +1,26 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: omnia-evropske-2024
+  name: omnia-referendum-jek2
   annotations:
     cert-manager.io/cluster-issuer: "letsencrypt-production"
     nginx.ingress.kubernetes.io/rewrite-target: /$2
     nginx.ingress.kubernetes.io/configuration-snippet: |
-      rewrite ^(/zemljevid/omnia/evropske)$ $1/ redirect; # add trailing slash
+      rewrite ^(/zemljevid/omnia/jek2)$ $1/ redirect; # add trailing slash
 spec:
   ingressClassName: nginx
   tls:
     - hosts:
         - vodici.djnd.si
-      secretName: omnia-evropske-2024-tls
+      secretName: omnia-referendum-jek2-tls
   rules:
     - host: vodici.djnd.si
       http:
         paths:
-          - path: /zemljevid/omnia/evropske(/|$)(.*)
+          - path: /zemljevid/omnia/jek2(/|$)(.*)
             pathType: Prefix
             backend:
               service:
-                name: omnia-evropske-2024
+                name: omnia-referendum-jek2
                 port:
                   number: 80

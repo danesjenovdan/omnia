@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: omnia-evropske-2024
+  name: omnia-referendum-jek2
   labels:
-    app: omnia-evropske-2024
+    app: omnia-referendum-jek2
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: omnia-evropske-2024
+      app: omnia-referendum-jek2
   template:
     metadata:
       labels:
-        app: omnia-evropske-2024
+        app: omnia-referendum-jek2
     spec:
       containers:
-        - name: omnia-evropske-2024
-          image: omnia-evropske-2024
+        - name: omnia-referendum-jek2
+          image: omnia-referendum-jek2
           ports:
             - containerPort: 80

@@ -6,6 +6,6 @@ resources:
   - service.yaml
   - ingress.yaml
 images:
-  - name: omnia-evropske-2024
-    newName: rg.fr-par.scw.cloud/djnd/omnia-evropske-2024
-    newTag: 'ccbf58a34eafb0878c24e22c5ce241b9d457b535'
+  - name: omnia-referendum-jek2
+    newName: rg.fr-par.scw.cloud/djnd/omnia-referendum-jek2
+    newTag: 'latest'
