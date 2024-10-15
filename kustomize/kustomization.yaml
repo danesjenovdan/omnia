@@ -8,4 +8,4 @@ resources:
 images:
   - name: omnia-referendum-jek2
     newName: rg.fr-par.scw.cloud/djnd/omnia-referendum-jek2
-    newTag: 'latest'
+    newTag: 'fbf28913042c9c6b96dae26523ef54724cd1cc9b'
