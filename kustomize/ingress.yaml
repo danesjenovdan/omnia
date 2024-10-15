@@ -1,26 +1,26 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: predcasno-glasovanje-evropske-2024
+  name: predcasno-glasovanje-referendum-jek2
   annotations:
     cert-manager.io/cluster-issuer: "letsencrypt-production"
     nginx.ingress.kubernetes.io/rewrite-target: /$2
     nginx.ingress.kubernetes.io/configuration-snippet: |
-      rewrite ^(/zemljevid/predcasno-glasovanje/evropske)$ $1/ redirect; # add trailing slash
+      rewrite ^(/zemljevid/predcasno-glasovanje/jek2)$ $1/ redirect; # add trailing slash
 spec:
   ingressClassName: nginx
   tls:
     - hosts:
         - vodici.djnd.si
-      secretName: predcasno-glasovanje-evropske-2024-tls
+      secretName: predcasno-glasovanje-referendum-jek2-tls
   rules:
     - host: vodici.djnd.si
       http:
         paths:
-          - path: /zemljevid/predcasno-glasovanje/evropske(/|$)(.*)
+          - path: /zemljevid/predcasno-glasovanje/jek2(/|$)(.*)
             pathType: Prefix
             backend:
               service:
-                name: predcasno-glasovanje-evropske-2024
+                name: predcasno-glasovanje-referendum-jek2
                 port:
                   number: 80

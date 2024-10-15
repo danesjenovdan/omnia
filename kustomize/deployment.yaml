@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: predcasno-glasovanje-evropske-2024
+  name: predcasno-glasovanje-referendum-jek2
   labels:
-    app: predcasno-glasovanje-evropske-2024
+    app: predcasno-glasovanje-referendum-jek2
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: predcasno-glasovanje-evropske-2024
+      app: predcasno-glasovanje-referendum-jek2
   template:
     metadata:
       labels:
-        app: predcasno-glasovanje-evropske-2024
+        app: predcasno-glasovanje-referendum-jek2
     spec:
       containers:
-        - name: predcasno-glasovanje-evropske-2024
-          image: predcasno-glasovanje-evropske-2024
+        - name: predcasno-glasovanje-referendum-jek2
+          image: predcasno-glasovanje-referendum-jek2
           ports:
             - containerPort: 80

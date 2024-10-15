@@ -6,6 +6,6 @@ resources:
   - service.yaml
   - ingress.yaml
 images:
-  - name: predcasno-glasovanje-evropske-2024
-    newName: rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-evropske-2024
-    newTag: '881a295cc9fa451ff5974a23ac3f85db115ff0e0'
+  - name: predcasno-glasovanje-referendum-jek2
+    newName: rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-referendum-jek2
+    newTag: 'latest'

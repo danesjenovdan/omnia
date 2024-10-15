@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: predcasno-glasovanje-evropske-2024
+  name: predcasno-glasovanje-referendum-jek2
 spec:
   selector:
-    app: predcasno-glasovanje-evropske-2024
+    app: predcasno-glasovanje-referendum-jek2
   ports:
     - protocol: TCP
       port: 80
