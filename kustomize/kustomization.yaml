@@ -8,4 +8,4 @@ resources:
 images:
   - name: predcasno-glasovanje-referendum-jek2
     newName: rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-referendum-jek2
-    newTag: 'latest'
+    newTag: '2a0c323133d0672e45edfb0faa10ee1e806620a7'
