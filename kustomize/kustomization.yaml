@@ -8,4 +8,4 @@ resources:
 images:
   - name: omnia-za
     newName: rg.fr-par.scw.cloud/djnd/omnia-za
-    newTag: 'latest'
+    newTag: 'af24769ca9f0763a290f9be723f900c466c7728f'
