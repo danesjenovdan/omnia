@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: omnia-za
+  labels:
+    app: omnia-za
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: omnia-za
+  template:
+    metadata:
+      labels:
+        app: omnia-za
+    spec:
+      containers:
+        - name: omnia-za
+          image: omnia-za
+          ports:
+            - containerPort: 80
