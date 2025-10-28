@@ -9,9 +9,10 @@
 
 /*
 barvna shema
-obrobe #dc776b
-svetlejša #f9e4e2
-temnejša #f4cfcb
+obrobe #587278
+svetlejša #e6f0f3
+temnejša #afe3ef
+kontrastna #3f5155
 */
 
 .label,
@@ -44,7 +45,7 @@ label {
 }
 
 html {
-    font-family: sans-serif;
+    font-family: system-ui, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -1406,7 +1407,7 @@ html {
 }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: system-ui, sans-serif;
     font-size: 14px;
     line-height: 1.428571429;
     color: #333
@@ -1506,7 +1507,7 @@ h4,
 h5,
 h6 {
     font-family: inherit;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.1;
     color: inherit
 }
@@ -1592,7 +1593,7 @@ h6 small {
 
 .h1,
 h1 {
-    font-size: 36px
+    font-size: 32px
 }
 
 .h2,
@@ -7070,7 +7071,7 @@ button.list-group-item-danger.active:hover {
 
 .popover,
 .tooltip {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: system-ui, sans-serif;
     font-style: normal;
     font-weight: 400;
     letter-spacing: normal;
@@ -7829,7 +7830,7 @@ button.close {
 .zavesa h2,
 .zavesa h3,
 .zavesa p {
-    font-family: 'acumin-pro', sans-serif;
+    font-family: system-ui, sans-serif;
 }
 
 .affix {
@@ -8055,7 +8056,7 @@ button.close {
     background-image: linear-gradient(to left, #6ba8a0 0, #6ba8a0 14.28571429%, #6a1b9a 14.28571429%, #6a1b9a 28.57142857%, #2196f3 28.57142857%, #2196f3 42.85714286%, #8bc34a 42.85714286%, #8bc34a 57.14285714%, #ffeb3b 57.14285714%, #ffeb3b 71.42857143%, #ffb74d 71.42857143%, #ffb74d 85.71428571%, #ef5350 85.71428571%, #ef5350 100%);
     background-image: -webkit-linear-gradient(to left, #6ba8a0 0, #6ba8a0 14.28571429%, #6a1b9a 14.28571429%, #6a1b9a 28.57142857%, #2196f3 28.57142857%, #2196f3 42.85714286%, #8bc34a 42.85714286%, #8bc34a 57.14285714%, #ffeb3b 57.14285714%, #ffeb3b 71.42857143%, #ffb74d 71.42857143%, #ffb74d 85.71428571%, #ef5350 85.71428571%, #ef5350 100%);
     background-image: -ms-linear-gradient(to left, #6ba8a0 0, #6ba8a0 14.28571429%, #6a1b9a 14.28571429%, #6a1b9a 28.57142857%, #2196f3 28.57142857%, #2196f3 42.85714286%, #8bc34a 42.85714286%, #8bc34a 57.14285714%, #ffeb3b 57.14285714%, #ffeb3b 71.42857143%, #ffb74d 71.42857143%, #ffb74d 85.71428571%, #ef5350 85.71428571%, #ef5350 100%) */
-    background-color: #f9e4e2;
+    background-color: #e6f0f3;
 }
 
 #themap {
@@ -8114,7 +8115,7 @@ button.close {
 }
 
 .circle {
-    background-color: #dc776b;
+    background-color: #587278;
     height: 40px;
     width: 40px;
     padding: 6px;
@@ -8153,7 +8154,7 @@ button.close {
     position: absolute;
     left: 0;
     height: 100%;
-    border: 1px solid #dc776b;
+    border: 1px solid #587278;
     -webkit-transition-property: all;
     transition-property: all;
     -webkit-transition-duration: 275ms;
@@ -8203,12 +8204,21 @@ button.close {
     margin-top: 24px
 }
 
-.zavesa a {
-    color: #dd786b
+.zavesa a,
+.markercontainer a {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #3f5155
 }
 
-.zavesa a:hover {
-    color: #dd786b
+.zavesa a:hover,
+.markercontainer a:hover {
+    text-decoration: underline;
+    color: #3f5155
+}
+
+.markercontainer b {
+    font-weight: 600
 }
 
 @media (max-width:795px) {
@@ -8219,20 +8229,21 @@ button.close {
 }
 
 .button {
-    background: #f9e4e2;
-    box-shadow: 3px 3px 0 #dc776b;
-    color: #333;
+    background: #e6f0f3;
+    box-shadow: 3px 3px 0 #587278;
+    color: #3f5155;
     width: 100%;
     position: relative;
     margin: 30px auto auto;
     font-size: 18px;
     line-height: 50px;
+    font-weight: 600;
     text-align: center;
     cursor: pointer
 }
 
 .button:hover {
-    box-shadow: 0 0 0 #dc776b;
+    box-shadow: 0 0 0 #587278;
     top: 2px;
     left: 2px
 }
