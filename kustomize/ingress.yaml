@@ -1,26 +1,26 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: predcasno-glasovanje-referendum-jek2
+  name: predcasno-glasovanje-referendum-dostojna-smrt-2025
   annotations:
     cert-manager.io/cluster-issuer: "letsencrypt-production"
     nginx.ingress.kubernetes.io/rewrite-target: /$2
     nginx.ingress.kubernetes.io/configuration-snippet: |
-      rewrite ^(/zemljevid/predcasno-glasovanje/jek2)$ $1/ redirect; # add trailing slash
+      rewrite ^(/zemljevid/predcasno-glasovanje/dostojna-smrt)$ $1/ redirect; # add trailing slash
 spec:
   ingressClassName: nginx
   tls:
     - hosts:
         - vodici.djnd.si
-      secretName: predcasno-glasovanje-referendum-jek2-tls
+      secretName: predcasno-glasovanje-referendum-dostojna-smrt-2025-tls
   rules:
     - host: vodici.djnd.si
       http:
         paths:
-          - path: /zemljevid/predcasno-glasovanje/jek2(/|$)(.*)
+          - path: /zemljevid/predcasno-glasovanje/dostojna-smrt(/|$)(.*)
             pathType: Prefix
             backend:
               service:
-                name: predcasno-glasovanje-referendum-jek2
+                name: predcasno-glasovanje-referendum-dostojna-smrt-2025
                 port:
                   number: 80

@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: predcasno-glasovanje-referendum-jek2
+  name: predcasno-glasovanje-referendum-dostojna-smrt-2025
   labels:
-    app: predcasno-glasovanje-referendum-jek2
+    app: predcasno-glasovanje-referendum-dostojna-smrt-2025
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: predcasno-glasovanje-referendum-jek2
+      app: predcasno-glasovanje-referendum-dostojna-smrt-2025
   template:
     metadata:
       labels:
-        app: predcasno-glasovanje-referendum-jek2
+        app: predcasno-glasovanje-referendum-dostojna-smrt-2025
     spec:
       containers:
-        - name: predcasno-glasovanje-referendum-jek2
-          image: predcasno-glasovanje-referendum-jek2
+        - name: predcasno-glasovanje-referendum-dostojna-smrt-2025
+          image: predcasno-glasovanje-referendum-dostojna-smrt-2025
           ports:
             - containerPort: 80
