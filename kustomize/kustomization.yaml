@@ -8,4 +8,4 @@ resources:
 images:
   - name: predcasno-glasovanje-referendum-dostojna-smrt-2025
     newName: rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-referendum-dostojna-smrt-2025
-    newTag: '80e385680f7543d42c2e57d6ab2669f1549d16a0'
+    newTag: '34b80bb47c6b4f30518df3de2306c23c9e4de0e2'
