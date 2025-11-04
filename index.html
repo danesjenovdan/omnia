@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html class=no-js>
+
   <head>
     <meta charset=utf-8>
-    <title>Zemljevid volišč za predčasno glasovanje!</title>
+    <title>Zemljevid predčasnih volišč!</title>
     <meta name=description content="Če želiš glas oddati v torek, sredo ali četrtek pred volilno nedeljo.">
     <meta name=viewport content="width=device-width,initial-scale=1">
     <link rel="icon" href="favicon.ico" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-    <meta property=og:title content="Zemljevid volišč za predčasno glasovanje!">
+    <meta property=og:title content="Zemljevid predčasnih volišč!">
     <meta property=og:type content="website">
     <meta property=og:description content="Če želiš glas oddati v torek, sredo ali četrtek pred volilno nedeljo.">
-    <meta property=og:image content="https://vodici.djnd.si/zemljevid/predcasno-glasovanje/dostojna-smrt/images/predcasne-EU-og.jpg">
+    <meta property=og:image content="https://vodici.djnd.si/zemljevid/predcasno-glasovanje/dostojna-smrt/images/predcasno-og.jpg">
     <meta name=twitter:card content=summary_large_image>
     <meta name=twitter:creator content=@danesjenovdan>
-    <meta name=twitter:title content="Zemljevid volišč za predčasno glasovanje!">
+    <meta name=twitter:title content="Zemljevid predčasnih volišč!">
     <meta name=twitter:description content="Če želiš glas oddati v torek, sredo ali četrtek pred volilno nedeljo.">
-    <meta name=twitter:image content="https://vodici.djnd.si/zemljevid/predcasno-glasovanje/dostojna-smrt/images/predcasne-EU-og.jpg">
+    <meta name=twitter:image content="https://vodici.djnd.si/zemljevid/predcasno-glasovanje/dostojna-smrt/images/predcasno-og.jpg">
     <link rel=stylesheet href="styles/vendor.afc25736.css">
     <link rel=stylesheet href="styles/main.0c301494.css?v=5">
     <script defer data-domain="vodici.djnd.si" src="https://plausible.lb.djnd.si/js/plausible.js"></script>
@@ -26,36 +27,29 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <div class="header mavrica">
-      <div class="circle tw hidden">
-        <div class=pulse></div>
-        <div class="icon icon-twitter"></div>
-      </div>
-      <div class="circle email hidden">
-        <div class=pulse></div>
-        <div class="icon icon-envelop"></div>
-      </div>
+      <h1>Zemljevid predčasnih volišč!</h1>
     </div>
-    <div class=zavesa>
-      <div class=stepone>
+    <div class="zavesa">
+      <div>
         <h1>Če te na dan referenduma o ZPPKŽ ne bo doma, lahko predčasno glasuješ v torek, 18., sredo, 19., in četrtek, 20. novembra.</h1>
         <p>Postopek za to je čisto preprost – vse, kar moraš storiti, je, da se (brez predhodne najave) oglasiš na volišču, ki ga je v tvojem okraju določila volilna komisija. Najdeš ga lahko s pomočjo spodnjega zemljevida.</p>
-        <div class=button> Poišči sebi najbližje volišče! </div>
-        <div class=social>
-          <h2>Povej naprej!</h2>
-          <div class="circle tw">
-            <div class=pulse></div>
-            <div class="icon icon-twitter"></div>
-          </div>
-          <div class="circle email">
-            <div class=pulse></div>
-            <div class="icon icon-envelop"></div>
-          </div>
+        <button type="button" class="button close-button">Poišči sebi najbližje predčasno volišče!<img class="arrow" src="images/arrow.svg" alt=""></button>
+        <hr>
+        <div class="share">
+          <div class="share-title">Povej naprej</div>
+          <input type="text">
+          <button class="button copy-button" type="button">
+            Kopiraj
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 25 25">
+              <path fill="#000" fill-rule="evenodd" d="M0 24.1976V3.8557h3.8437V0H25v21.1443h-3.8437V25H0zM5.4475 3.8557h15.7078v15.685h2.239V1.6031l-17.947.0011zM1.6038 5.4585V23.396h17.9477V5.4585z" clip-rule="evenodd"/>
+            </svg>
+          </button>
         </div>
       </div>
     </div>
-    <div id=themap></div>
-    <script src=scripts/vendor.7b6e5cde.js></script>
-    <script src=scripts/plugins.bde8e777.js></script>
+    <div id="themap"></div>
+    <script src="scripts/vendor.7b6e5cde.js"></script>
+    <script src="scripts/plugins.bde8e777.js"></script>
     <script src="scripts/main.js?v=4"></script>
   </body>
 </html>

@@ -19,7 +19,16 @@ function initmap(container) {
             icon: d
         }).addTo(map);
         // TODO removed dostopno invalidom
-        c.bindPopup("i" === b.dostopnoInvalidom ? '<div class="markercontainer"><div><b>' + b.ime + "</b></div><div>" + b.naslov + ", " + b["pošta"] + "</div><div><br>Volilni okraj: <strong>" + b.okraj + '</strong></div><div><br><b>Volišče je dostopno invalidom. :)</b></div></div>' : '<div class="markercontainer"><div><b>' + b.ime + "</b></div><div>" + b.naslov + ", " + b["pošta"] + "</div><div><br>Volilni okraj: <strong>" + b.okraj + '</strong></div><div><br><b>Ne vemo, ali je volišče dostopno invalidom. :(</b></div></div>')
+
+        var markup = '<div class="markercontainer"><div><b>' + b.ime + "</b></div><div>" + b.naslov + ", " + b["pošta"] + "</div><div><br>Volilni okraj: <strong>" + b.okraj + '</strong></div>';
+        if ("i" === b.dostopnoInvalidom) {
+            markup += '<div><br><b>Volišče je dostopno invalidom. :)</b></div>'
+        } else {
+            markup += '<div><br><b>Ne vemo, ali je volišče dostopno invalidom. :(</b></div>'
+        }
+        markup += '</div>'
+
+        c.bindPopup(markup)
     })
 }
 
@@ -1067,15 +1076,26 @@ var map, ajaxRequest, plotlist, plotlayers = [],
     ];
 
 $(document).ready(function () {
-    initmap("themap"), $(".zavesa .button").on("click", function () {
-        $(".zavesa").animate({
-            top: -1e3
-        }, 600), $(".header .circle").removeClass("hidden")
-    }), $("body").on("click", ".tw", function () {
-        var a = "https://twitter.com/intent/tweet?text=" + encodeURIComponent("Če te na dan referenduma o ZPPKŽ ne bo doma, lahko predčasno glasuješ v torek, 18., sredo, 19., in četrtek, 20. novembra.\n\nVse, kar moraš storiti, je, da se (brez predhodne najave) oglasiš na za to določenem volišču v tvojem okraju.\n\nNajdeš ga lahko na spodnjem zemljevidu. 👇" + document.location.href);
-        return window.open(a, "_blank"), !1
-    }), $("body").on("click", ".email", function () {
-        var a = "mailto:?subject=Kam na predčasne volitve v torek, sredo ali četrtek?&body=Živjo!%0D%0A%0D%0AVeš, da lahko na volitvah svoj glas oddaš tudi, če te na dan referenduma o ZPPKŽ ne bo doma?%0D%0A%0D%0AVse, kar moraš storiti, je, da se v torek, 18., sredo, 19., in četrtek, 20. novembra, (brez predhodne najave) oglasiš na volišču, ki ga je v tvojem okraju določila volilna komisija.%0D%0A%0D%0ASvoje volišče za predčasno glasovanje lahko poiščeš s pomočjo zemljevida na tej povezavi: " + document.location.href + ".%0D%0A%0D%0APovezavo pa deli tudi z vsemi prijateljicami in prijatelji!%0D%0A%0D%0ALepo bodi.";
-        return window.open(a, "_blank"), !1
-    })
+    initmap("themap");
+
+    $(".zavesa .close-button").on("click", function () {
+        $(".zavesa").animate({ top: -1000 }, 600)
+    });
+
+    $(".zavesa .share input").val(window.location.href);
+    $(".zavesa .share input").on("focus", function () {
+        $(this).select();
+    });
+
+    $(".zavesa .share .copy-button").on("click", function () {
+        var copyText = $(".zavesa .share input");
+        copyText.select();
+        document.execCommand("copy");
+        var oldHtml = $(this).html();
+        $(this).html("Kopirano!");
+        var button = $(this);
+        setTimeout(function () {
+            button.html(oldHtml);
+        }, 2000);
+    });
 });
