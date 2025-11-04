@@ -22,13 +22,13 @@ function initmap(container) {
 
         var markup = '<div class="markercontainer"><div><b>' + b.ime + "</b></div><div>" + b.naslov + ", " + b["pošta"] + "</div><div><br>Volilni okraj: <strong>" + b.okraj + '</strong></div>';
         if ("i" === b.dostopnoInvalidom) {
-            markup += '<div><br><b>Volišče je dostopno invalidom. :)</b></div>'
+            markup += '<div><br><b>Volišče je dostopno invalidom. <nobr>:)</nobr></b></div>'
         } else {
-            markup += '<div><br><b>Ne vemo, ali je volišče dostopno invalidom. :(</b></div>'
+            markup += '<div><br><b>Ne vemo, ali je volišče dostopno invalidom. <nobr>:(</nobr></b></div>'
         }
         markup += '</div>'
 
-        c.bindPopup(markup)
+        c.bindPopup(markup, { minWidth: 300, maxWidth: 350 })
     })
 }
 
