@@ -8,4 +8,4 @@ resources:
 images:
   - name: predcasno-glasovanje-evropske-2024
     newName: rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-evropske-2024
-    newTag: '881a295cc9fa451ff5974a23ac3f85db115ff0e0'
+    newTag: '3ae334a5c111c02acfaccd423961a0e11934959e'
