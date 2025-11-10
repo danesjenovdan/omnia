@@ -12,9 +12,20 @@ spec:
   tls:
     - hosts:
         - vodici.djnd.si
+        - vodici.danesjenovdan.si
       secretName: predcasno-glasovanje-referendum-dostojna-smrt-2025-tls
   rules:
     - host: vodici.djnd.si
+      http:
+        paths:
+          - path: /zemljevid/predcasno-glasovanje/dostojna-smrt(/|$)(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: predcasno-glasovanje-referendum-dostojna-smrt-2025
+                port:
+                  number: 80
+    - host: vodici.danesjenovdan.si
       http:
         paths:
           - path: /zemljevid/predcasno-glasovanje/dostojna-smrt(/|$)(.*)
