@@ -12,9 +12,20 @@ spec:
   tls:
     - hosts:
         - vodici.djnd.si
+        - vodici.danesjenovdan.si
       secretName: omnia-voda-tls
   rules:
     - host: vodici.djnd.si
+      http:
+        paths:
+          - path: /zemljevid/omnia/voda(/|$)(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: omnia-voda
+                port:
+                  number: 80
+    - host: vodici.danesjenovdan.si
       http:
         paths:
           - path: /zemljevid/omnia/voda(/|$)(.*)
