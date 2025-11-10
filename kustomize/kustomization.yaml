@@ -8,4 +8,4 @@ resources:
 images:
   - name: omnia-dz-2022
     newName: rg.fr-par.scw.cloud/djnd/omnia-dz-2022
-    newTag: 'd08d0a64c0cc374e49b2d7bd25200dedc4a833d6'
+    newTag: '4a203c67ded8c1e7d8894d9dd34e4ffd9a975419'
