@@ -8,4 +8,4 @@ resources:
 images:
   - name: predcasno-glasovanje-predsednik-2022
     newName: rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-predsednik-2022
-    newTag: '6e698a6be81684b753fd1422a32b50e0462dd702'
+    newTag: 'c47e2873314192c92777de9255cda2a86fc0bb57'
