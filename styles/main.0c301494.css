@@ -8237,6 +8237,19 @@ button.close {
     color: #3f5155
 }
 
+.markercontainer p,
+.markercontainer ul {
+    margin: 0;
+}
+
+.markercontainer p + p {
+    margin-top: 12px
+}
+
+.markercontainer ul {
+    padding-left: 20px
+}
+
 .markercontainer b {
     font-weight: 600
 }
