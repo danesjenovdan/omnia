@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: omnia-referendum-dostojna-smrt-2025
+  name: omnia-dz-2026
   labels:
-    app: omnia-referendum-dostojna-smrt-2025
+    app: omnia-dz-2026
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: omnia-referendum-dostojna-smrt-2025
+      app: omnia-dz-2026
   template:
     metadata:
       labels:
-        app: omnia-referendum-dostojna-smrt-2025
+        app: omnia-dz-2026
     spec:
       containers:
-        - name: omnia-referendum-dostojna-smrt-2025
-          image: omnia-referendum-dostojna-smrt-2025
+        - name: omnia-dz-2026
+          image: omnia-dz-2026
           ports:
             - containerPort: 80

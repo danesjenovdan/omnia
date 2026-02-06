@@ -6,6 +6,6 @@ resources:
   - service.yaml
   - ingress.yaml
 images:
-  - name: omnia-referendum-dostojna-smrt-2025
-    newName: rg.fr-par.scw.cloud/djnd/omnia-referendum-dostojna-smrt-2025
-    newTag: '64536d620fa859927d4b891daedc13c995abfb98'
+  - name: omnia-dz-2026
+    newName: rg.fr-par.scw.cloud/djnd/omnia-dz-2026
+    newTag: "latest"
