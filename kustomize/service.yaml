@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: predcasno-glasovanje-referendum-dostojna-smrt-2025
+  name: predcasno-glasovanje-dz-2026
 spec:
   selector:
-    app: predcasno-glasovanje-referendum-dostojna-smrt-2025
+    app: predcasno-glasovanje-dz-2026
   ports:
     - protocol: TCP
       port: 80

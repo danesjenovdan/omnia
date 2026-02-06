@@ -6,6 +6,6 @@ resources:
   - service.yaml
   - ingress.yaml
 images:
-  - name: predcasno-glasovanje-referendum-dostojna-smrt-2025
-    newName: rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-referendum-dostojna-smrt-2025
-    newTag: 'd0d484d93b3b647836e0f281831112ba3afeaffd'
+  - name: predcasno-glasovanje-dz-2026
+    newName: rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-dz-2026
+    newTag: "latest"
