@@ -8,4 +8,4 @@ resources:
 images:
   - name: predcasno-glasovanje-dz-2026
     newName: rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-dz-2026
-    newTag: 'da16e9fa20fec5f4b9d2b7549a097cd0d402c55c'
+    newTag: 'f8dedf572fcb11786e640ac149d6348c336056ec'
