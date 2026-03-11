@@ -545,7 +545,7 @@ const locations = [
 
 function timeLeft() {
   // deadline za oddat namero
-  const deadline = new Date(2025, 10, 19, 24, 0, 0, 0);
+  const deadline = new Date(2026, 2, 18, 24, 0, 0, 0);
   const now = new Date();
   // calculate difference in DAYS
   const t2 = deadline.getTime();
