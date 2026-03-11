@@ -9,7 +9,7 @@
 /*
 barvna shema
 obrobe #587278
-svetlejša #e6f0f3
+svetlejša #FFF7DB
 temnejša #afe3ef
 kontrastna #3f5155
 */
@@ -8052,7 +8052,7 @@ button.close {
     background-image: linear-gradient(to left, #6ba8a0 0, #6ba8a0 14.28571429%, #6a1b9a 14.28571429%, #6a1b9a 28.57142857%, #2196f3 28.57142857%, #2196f3 42.85714286%, #8bc34a 42.85714286%, #8bc34a 57.14285714%, #ffeb3b 57.14285714%, #ffeb3b 71.42857143%, #ffb74d 71.42857143%, #ffb74d 85.71428571%, #ef5350 85.71428571%, #ef5350 100%);
     background-image: -webkit-linear-gradient(to left, #6ba8a0 0, #6ba8a0 14.28571429%, #6a1b9a 14.28571429%, #6a1b9a 28.57142857%, #2196f3 28.57142857%, #2196f3 42.85714286%, #8bc34a 42.85714286%, #8bc34a 57.14285714%, #ffeb3b 57.14285714%, #ffeb3b 71.42857143%, #ffb74d 71.42857143%, #ffb74d 85.71428571%, #ef5350 85.71428571%, #ef5350 100%);
     background-image: -ms-linear-gradient(to left, #6ba8a0 0, #6ba8a0 14.28571429%, #6a1b9a 14.28571429%, #6a1b9a 28.57142857%, #2196f3 28.57142857%, #2196f3 42.85714286%, #8bc34a 42.85714286%, #8bc34a 57.14285714%, #ffeb3b 57.14285714%, #ffeb3b 71.42857143%, #ffb74d 71.42857143%, #ffb74d 85.71428571%, #ef5350 85.71428571%, #ef5350 100%) */
-    background-color: #e6f0f3;
+    background-color: #FFF7DB;
 }
 
 #themap {
@@ -8277,7 +8277,7 @@ button.close {
     line-height: 32px;
     font-weight: 600;
     color: #333;
-    background-color: #bae2ed;
+    background-color: #FFEDAD;
     border: 0;
     box-shadow: 0 0 0 1px #333;
     cursor: pointer;
