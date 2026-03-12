@@ -36,7 +36,7 @@ function initMap(container) {
           ${locs[0].naslov}, ${locs[0].posta}
         </p>
         <p>
-          <b>Oddaj vlogo <a href="https://e-uprava.gov.si/si/podrocja/vloge/vloga.html?id=8765" target="_blank" rel="noopener noreferrer">z e-identiteto</a> ali <a href="https://e-uprava.gov.si/si/podrocja/vloge/vloga.html?id=8766" target="_blank" rel="noopener noreferrer">brez</a>.</b>
+          <b>Oddaj vlogo <a href="https://e-uprava.gov.si/si/podrocja/vloge/vloga.html?id=8965" target="_blank" rel="noopener noreferrer">z e-identiteto</a> ali <a href="https://e-uprava.gov.si/si/podrocja/vloge/vloga.html?id=8966" target="_blank" rel="noopener noreferrer">brez</a>.</b>
         </p>
       </div>
     `;
