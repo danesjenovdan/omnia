@@ -8,4 +8,4 @@ resources:
 images:
   - name: predcasno-glasovanje-dz-2022
     newName: rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-dz-2022
-    newTag: '191d4c42ac5889e887c2f10deb68489ae05421bf'
+    newTag: 'ef3db0e2e7cc2ec0c831863401c7ba530a4df2c7'
