@@ -8,4 +8,4 @@ resources:
 images:
   - name: omnia-4xproti
     newName: rg.fr-par.scw.cloud/djnd/omnia-4xproti
-    newTag: '344840139e059842e7adbabf4c661b8c43d75f15'
+    newTag: 'adf657fce0b4ae058a888c75fa162d1a798dd9fa'
