@@ -6,6 +6,6 @@ resources:
   - service.yaml
   - ingress.yaml
 images:
-  - name: omnia-dz-2026
-    newName: rg.fr-par.scw.cloud/djnd/omnia-dz-2026
-    newTag: '418ecad79ecc261f52094cec0809c937cf736bef'
+  - name: omnia-4xproti
+    newName: rg.fr-par.scw.cloud/djnd/omnia-4xproti
+    newTag: 'latest'
