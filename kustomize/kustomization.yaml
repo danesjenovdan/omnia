@@ -8,4 +8,4 @@ resources:
 images:
   - name: omnia-referendum-dostojna-smrt-2025
     newName: rg.fr-par.scw.cloud/djnd/omnia-referendum-dostojna-smrt-2025
-    newTag: '9034a17d7ff2b10c28f7a291cd7ebe8801a7e2a4' #
+    newTag: '2da227e321e5c1f60627cae887fb58622c1a0d6c'
