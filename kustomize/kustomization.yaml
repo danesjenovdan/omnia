@@ -8,4 +8,4 @@ resources:
 images:
   - name: omnia-voda
     newName: rg.fr-par.scw.cloud/djnd/omnia-voda
-    newTag: '73436a1225f06a44661c5dfa05e8593e6047881e' #
+    newTag: '7b9ff4246a970a401471a007ea72a93754947a4f'
