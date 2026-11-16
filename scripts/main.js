@@ -36,7 +36,7 @@ function initMap(container) {
           ${locs[0].naslov}, ${locs[0].posta}
         </p>
         <p>
-          <b>Oddaj vlogo <a href="https://e-uprava.gov.si/si/podrocja/vloge/vloga.html?id=9366" target="_blank" rel="noopener noreferrer">z e-identiteto</a> ali <a href="https://e-uprava.gov.si/si/podrocja/vloge/vloga.html?id=9365" target="_blank" rel="noopener noreferrer">brez</a>.</b>
+          <b>Oddaj vlogo <a href="https://e-uprava.gov.si/si/podrocja/vloge/vloga.html?id=9565&lang=si" target="_blank" rel="noopener noreferrer">z e-identiteto</a> ali <a href="https://e-uprava.gov.si/si/podrocja/vloge/vloga.html?id=9566&lang=si" target="_blank" rel="noopener noreferrer">brez</a>.</b>
         </p>
       </div>
     `;
@@ -545,7 +545,7 @@ const locations = [
 
 function timeLeft() {
   // deadline za oddat namero
-  const deadline = new Date(2026, 9, 7, 24, 0, 0, 0);
+  const deadline = new Date(2026, 11, 2, 24, 0, 0, 0);
   const now = new Date();
   // calculate difference in DAYS
   const t2 = deadline.getTime();
