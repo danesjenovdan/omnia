@@ -6,6 +6,6 @@ resources:
   - service.yaml
   - ingress.yaml
 images:
-  - name: omnia-4xproti
-    newName: rg.fr-par.scw.cloud/djnd/omnia-4xproti
-    newTag: '372396a05dc879a79ab88282165d7ada75685298'
+  - name: omnia-zakon-za-bogate
+    newName: rg.fr-par.scw.cloud/djnd/omnia-zakon-za-bogate
+    newTag: 'latest'

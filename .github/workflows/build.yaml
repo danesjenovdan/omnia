@@ -2,7 +2,7 @@ name: Build and publish Docker image
 on:
   push:
     branches:
-      - "omnia-4xproti"
+      - "omnia-zakon-za-bogate"
 jobs:
   push_to_registry:
     name: Build and push Docker image to registry
@@ -30,8 +30,8 @@ jobs:
           context: .
           push: true
           tags: |
-            rg.fr-par.scw.cloud/djnd/omnia-4xproti:${{ github.sha }}
-            rg.fr-par.scw.cloud/djnd/omnia-4xproti:latest
+            rg.fr-par.scw.cloud/djnd/omnia-zakon-za-bogate:${{ github.sha }}
+            rg.fr-par.scw.cloud/djnd/omnia-zakon-za-bogate:latest
 
       - name: Update image versions in kustomize/kustomization.yaml
         run: |

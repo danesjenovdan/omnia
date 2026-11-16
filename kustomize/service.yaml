@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: omnia-4xproti
+  name: omnia-zakon-za-bogate
 spec:
   selector:
-    app: omnia-4xproti
+    app: omnia-zakon-za-bogate
   ports:
     - protocol: TCP
       port: 80

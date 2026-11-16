@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: omnia-4xproti
+  name: omnia-zakon-za-bogate
   labels:
-    app: omnia-4xproti
+    app: omnia-zakon-za-bogate
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: omnia-4xproti
+      app: omnia-zakon-za-bogate
   template:
     metadata:
       labels:
-        app: omnia-4xproti
+        app: omnia-zakon-za-bogate
     spec:
       containers:
-        - name: omnia-4xproti
-          image: omnia-4xproti
+        - name: omnia-zakon-za-bogate
+          image: omnia-zakon-za-bogate
           ports:
             - containerPort: 80

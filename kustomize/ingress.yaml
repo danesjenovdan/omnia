@@ -1,44 +1,44 @@
 apiVersion: traefik.io/v1alpha1
 kind: Middleware
 metadata:
-  name: omnia-4xproti-add-trailing-slash
+  name: omnia-zakon-za-bogate-add-trailing-slash
 spec:
   redirectRegex:
-    regex: (/zemljevid/omnia/4xproti)(\?.*)?$
+    regex: (/zemljevid/omnia/zakon-za-bogate)(\?.*)?$
     replacement: ${1}/${2}
     permanent: false
 ---
 apiVersion: traefik.io/v1alpha1
 kind: Middleware
 metadata:
-  name: omnia-4xproti-strip-prefix
+  name: omnia-zakon-za-bogate-strip-prefix
 spec:
   stripPrefix:
     prefixes:
-      - /zemljevid/omnia/4xproti
+      - /zemljevid/omnia/zakon-za-bogate
 ---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: omnia-4xproti
+  name: omnia-zakon-za-bogate
   annotations:
     # Do not put cert manager here, root redirect ingress (in `ops` repo) will handle it.
     # If we put it here, they will both try to issue the certificate and letsencrypt will rate limit us.
     traefik.ingress.kubernetes.io/router.middlewares: |
       traefik-redirect-to-https@kubernetescrd,
       vodici-redirect-domain@kubernetescrd,
-      vodici-omnia-4xproti-add-trailing-slash@kubernetescrd,
-      vodici-omnia-4xproti-strip-prefix@kubernetescrd
+      vodici-omnia-zakon-za-bogate-add-trailing-slash@kubernetescrd,
+      vodici-omnia-zakon-za-bogate-strip-prefix@kubernetescrd
 spec:
   ingressClassName: traefik
   rules:
     - host: vodici.danesjenovdan.si
       http:
         paths:
-          - path: /zemljevid/omnia/4xproti
+          - path: /zemljevid/omnia/zakon-za-bogate
             pathType: Prefix
             backend:
               service:
-                name: omnia-4xproti
+                name: omnia-zakon-za-bogate
                 port:
                   number: 80
