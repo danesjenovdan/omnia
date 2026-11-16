@@ -6,6 +6,6 @@ resources:
   - service.yaml
   - ingress.yaml
 images:
-  - name: predcasno-glasovanje-dz-2026
-    newName: rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-dz-2026
-    newTag: '8edd05e255199d18cd05b5561a17fae7c9b0d482'
+  - name: predcasno-glasovanje-zakon-za-bogate
+    newName: rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-zakon-za-bogate
+    newTag: 'latest'

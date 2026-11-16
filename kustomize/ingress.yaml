@@ -1,44 +1,44 @@
 apiVersion: traefik.io/v1alpha1
 kind: Middleware
 metadata:
-  name: predcasno-glasovanje-dz-2026-add-trailing-slash
+  name: predcasno-glasovanje-zakon-za-bogate-add-trailing-slash
 spec:
   redirectRegex:
-    regex: (/zemljevid/predcasno-glasovanje/dz-2026)(\?.*)?$
+    regex: (/zemljevid/predcasno-glasovanje/zakon-za-bogate)(\?.*)?$
     replacement: ${1}/${2}
     permanent: false
 ---
 apiVersion: traefik.io/v1alpha1
 kind: Middleware
 metadata:
-  name: predcasno-glasovanje-dz-2026-strip-prefix
+  name: predcasno-glasovanje-zakon-za-bogate-strip-prefix
 spec:
   stripPrefix:
     prefixes:
-      - /zemljevid/predcasno-glasovanje/dz-2026
+      - /zemljevid/predcasno-glasovanje/zakon-za-bogate
 ---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: predcasno-glasovanje-dz-2026
+  name: predcasno-glasovanje-zakon-za-bogate
   annotations:
     # Do not put cert manager here, root redirect ingress (in `ops` repo) will handle it.
     # If we put it here, they will both try to issue the certificate and letsencrypt will rate limit us.
     traefik.ingress.kubernetes.io/router.middlewares: |
       traefik-redirect-to-https@kubernetescrd,
       vodici-redirect-domain@kubernetescrd,
-      vodici-predcasno-glasovanje-dz-2026-add-trailing-slash@kubernetescrd,
-      vodici-predcasno-glasovanje-dz-2026-strip-prefix@kubernetescrd
+      vodici-predcasno-glasovanje-zakon-za-bogate-add-trailing-slash@kubernetescrd,
+      vodici-predcasno-glasovanje-zakon-za-bogate-strip-prefix@kubernetescrd
 spec:
   ingressClassName: traefik
   rules:
     - host: vodici.danesjenovdan.si
       http:
         paths:
-          - path: /zemljevid/predcasno-glasovanje/dz-2026
+          - path: /zemljevid/predcasno-glasovanje/zakon-za-bogate
             pathType: Prefix
             backend:
               service:
-                name: predcasno-glasovanje-dz-2026
+                name: predcasno-glasovanje-zakon-za-bogate
                 port:
                   number: 80

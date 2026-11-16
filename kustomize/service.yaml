@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: predcasno-glasovanje-dz-2026
+  name: predcasno-glasovanje-zakon-za-bogate
 spec:
   selector:
-    app: predcasno-glasovanje-dz-2026
+    app: predcasno-glasovanje-zakon-za-bogate
   ports:
     - protocol: TCP
       port: 80

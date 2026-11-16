@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: predcasno-glasovanje-dz-2026
+  name: predcasno-glasovanje-zakon-za-bogate
   labels:
-    app: predcasno-glasovanje-dz-2026
+    app: predcasno-glasovanje-zakon-za-bogate
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: predcasno-glasovanje-dz-2026
+      app: predcasno-glasovanje-zakon-za-bogate
   template:
     metadata:
       labels:
-        app: predcasno-glasovanje-dz-2026
+        app: predcasno-glasovanje-zakon-za-bogate
     spec:
       containers:
-        - name: predcasno-glasovanje-dz-2026
-          image: predcasno-glasovanje-dz-2026
+        - name: predcasno-glasovanje-zakon-za-bogate
+          image: predcasno-glasovanje-zakon-za-bogate
           ports:
             - containerPort: 80
