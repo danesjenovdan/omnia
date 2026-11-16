@@ -8,4 +8,4 @@ resources:
 images:
   - name: omnia-zakon-za-bogate
     newName: rg.fr-par.scw.cloud/djnd/omnia-zakon-za-bogate
-    newTag: '5283ac29106ec69c4a362e700169846549ca98d5'
+    newTag: 'ca959a3eebd827ec61a67a76cbe64a0e84407abf'
