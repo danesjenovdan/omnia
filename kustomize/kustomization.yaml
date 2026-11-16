@@ -8,4 +8,4 @@ resources:
 images:
   - name: predcasno-glasovanje-zakon-za-bogate
     newName: rg.fr-par.scw.cloud/djnd/predcasno-glasovanje-zakon-za-bogate
-    newTag: 'd6cc260b01f1771fe4176c6ee8a21bde3ccbd9b7'
+    newTag: '91e9f620dbefbc116535549005798f889519b8aa'
