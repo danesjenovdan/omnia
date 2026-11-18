@@ -19,3 +19,10 @@ spec:
           image: predcasno-glasovanje-zakon-za-bogate
           ports:
             - containerPort: 80
+          resources:
+            requests:
+              memory: 25Mi
+              cpu: 25m
+            limits:
+              memory: 25Mi
+              cpu: 25m
