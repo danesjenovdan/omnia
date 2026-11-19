@@ -1,55 +1,66 @@
 <!DOCTYPE html>
-<html class=no-js>
-
+<html lang="sl">
   <head>
-    <meta charset=utf-8>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="img/favicon.ico?v=${COMMIT_SHA}" />
+
     <title>Zemljevid predčasnih volišč!</title>
-    <meta name=description content="Če želiš glas PROTI zakonu za bogate oddati v torek, sredo ali četrtek pred volilno nedeljo.">
-    <meta name=viewport content="width=device-width,initial-scale=1">
-    <link rel="icon" href="favicon.ico" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-    <meta property=og:title content="Zemljevid predčasnih volišč!">
-    <meta property=og:type content="website">
-    <meta property=og:description content="Če želiš glas PROTI zakonu za bogate oddati v torek, sredo ali četrtek pred volilno nedeljo.">
-    <meta property=og:image content="https://vodici.djnd.si/zemljevid/predcasno-glasovanje/zakon-za-bogate/images/predcasno-og.jpg">
-    <meta name=twitter:card content=summary_large_image>
-    <meta name=twitter:creator content=@danesjenovdan>
-    <meta name=twitter:title content="Zemljevid predčasnih volišč!">
-    <meta name=twitter:description content="Če želiš glas PROTI zakonu za bogate oddati v torek, sredo ali četrtek pred volilno nedeljo.">
-    <meta name=twitter:image content="https://vodici.djnd.si/zemljevid/predcasno-glasovanje/zakon-za-bogate/images/predcasno-og.jpg">
-    <link rel=stylesheet href="styles/vendor.afc25736.css">
-    <link rel=stylesheet href="styles/main.0c301494.css?v=7">
-    <script defer data-domain="vodici.djnd.si" src="https://plausible.lb.djnd.si/js/plausible.js"></script>
-    <script src=scripts/vendor/modernizr.fbe20327.js></script>
+    <meta property="og:title" content="Zemljevid predčasnih volišč!">
+    <meta name="twitter:title" content="Zemljevid predčasnih volišč!">
+
+    <meta name="description" content="Če želiš glas PROTI zakonu za bogate oddati v torek, sredo ali četrtek pred volilno nedeljo.">
+    <meta property="og:description" content="Če želiš glas PROTI zakonu za bogate oddati v torek, sredo ali četrtek pred volilno nedeljo.">
+    <meta name="twitter:description" content="Če želiš glas PROTI zakonu za bogate oddati v torek, sredo ali četrtek pred volilno nedeljo.">
+
+    <meta property="og:image" content="https://vodici.danesjenovdan.si/zemljevid/predcasno-glasovanje/zakon-za-bogate/img/og-slika.jpg?v=${COMMIT_SHA}">
+    <meta name="twitter:image" content="https://vodici.danesjenovdan.si/zemljevid/predcasno-glasovanje/zakon-za-bogate/img/og-slika.jpg?v=${COMMIT_SHA}">
+
+    <meta name="author" content="Danes je nov dan">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@danesjenovdan">
+
+    <link href="css/reset.css?v=${COMMIT_SHA}" rel="stylesheet" />
+    <link href="css/leaflet.css?v=${COMMIT_SHA}" rel="stylesheet" />
+    <link href="css/style.css?v=${COMMIT_SHA}" rel="stylesheet" />
+
+    <script defer data-domain="vodici.danesjenovdan.si" src="https://plausible.lb.djnd.si/js/script.js"></script>
   </head>
+
   <body>
-    <!--[if lt IE 10]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    <div class="header mavrica">
+    <div class="header card-shadow">
       <h1>Zemljevid predčasnih volišč!</h1>
     </div>
     <div class="zavesa">
-      <div>
-        <h1>Če te na dan referenduma o zakonu za bogate ne bo doma, lahko predčasno glasuješ PROTI v torek, 1., sredo, 2., in četrtek, 3. decembra.</h1>
+      <div class="zavesa-content card-shadow">
+        <h2>Če te na dan referenduma o zakonu za bogate ne bo doma, lahko predčasno glasuješ PROTI v torek, 1., sredo, 2., in četrtek, 3. decembra.</h2>
         <p>Postopek za to je čisto preprost – vse, kar moraš storiti, je, da se (brez predhodne najave) oglasiš na volišču, ki ga je v tvojem okraju določila volilna komisija. Najdeš ga lahko s pomočjo spodnjega zemljevida.</p>
-        <button type="button" class="button close-button">Poišči sebi najbližje predčasno volišče!<img class="arrow" src="images/arrow.svg" alt=""></button>
+        <button type="button" class="button close-button">
+          Poišči sebi najbližje predčasno volišče!
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="31.957 35.93 66.358 55.2">
+            <path d="m68.357 40.73 19.7 19.8h-53.1a3 3 0 0 0 0 6h53.1l-19.7 19.8a3 3 0 0 0 4.2 4.2l24.9-24.9a3 3 0 0 0 0-4.2l-24.9-24.9a3 3 0 0 0-4.2 4.2"/>
+          </svg>
+        </button>
         <hr>
         <div class="share">
           <div class="share-title">Povej naprej</div>
           <input type="text">
           <button class="button copy-button" type="button">
             Kopiraj
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 25 25">
-              <path fill="#000" fill-rule="evenodd" d="M0 24.1976V3.8557h3.8437V0H25v21.1443h-3.8437V25H0zM5.4475 3.8557h15.7078v15.685h2.239V1.6031l-17.947.0011zM1.6038 5.4585V23.396h17.9477V5.4585z" clip-rule="evenodd"/>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M14 12V2H4V0h12v12zM0 4h12v12H0zm2 2v8h8V6z"/>
             </svg>
           </button>
         </div>
       </div>
     </div>
     <div id="themap"></div>
-    <script src="scripts/vendor.7b6e5cde.js"></script>
-    <script src="scripts/plugins.bde8e777.js"></script>
-    <script src="scripts/main.js?v=7"></script>
+
+    <script type="text/javascript" src="js/jquery.min.js?v=${COMMIT_SHA}"></script>
+    <script type="text/javascript" src="js/leaflet.js?v=${COMMIT_SHA}"></script>
+    <script type="text/javascript" src="js/script.js?v=${COMMIT_SHA}"></script>
   </body>
 </html>

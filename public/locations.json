@@ -1,0 +1,814 @@
+{
+  "locations": [
+    {
+      "ve": 1,
+      "ovk": "OVK Jesenice",
+      "okraj": "JESENICE",
+      "ime": "Upravna enota Jesenice",
+      "naslov": "C. Železarjev 6a",
+      "posta": "4270 Jesenice",
+      "geo_latlng": [46.4320606, 14.0623146]
+    },
+    {
+      "ve": 1,
+      "ovk": "OVK Radovljica 1",
+      "okraj": "RADOVLJICA",
+      "ime": "Občina Bled",
+      "naslov": "Cesta svobode 13",
+      "posta": "4260 Bled",
+      "geo_latlng": [46.36874, 14.10961]
+    },
+    {
+      "ve": 1,
+      "ovk": "OVK Radovljica 1",
+      "okraj": "RADOVLJICA",
+      "ime": "Dom Joža Ažmana",
+      "naslov": "Triglavska 16",
+      "posta": "4264 Bohinjska Bistrica",
+      "geo_latlng": [46.27255, 13.95613]
+    },
+    {
+      "ve": 1,
+      "ovk": "OVK Radovljica 2",
+      "okraj": "RADOVLJICA",
+      "ime": "Občina Radovljica",
+      "naslov": "Gorenjska cesta 19",
+      "posta": "4240 Radovljica",
+      "geo_latlng": [46.3438093, 14.1715796]
+    },
+    {
+      "ve": 1,
+      "ovk": "OVK Kranj 1, 2, 3",
+      "okraj": "KRANJ",
+      "ime": "Mestna občina Kranj",
+      "naslov": "Slovenski trg 1",
+      "posta": "4000 Kranj",
+      "geo_latlng": [46.24333597298653, 14.355778611546574]
+    },
+    {
+      "ve": 1,
+      "ovk": "OVK Tržič",
+      "okraj": "TRŽIČ",
+      "ime": "Društvo upokojencev Tržič",
+      "naslov": "Trg svobode 18",
+      "posta": "4290 Tržič",
+      "geo_latlng": [46.3635438, 14.3089991]
+    },
+    {
+      "ve": 1,
+      "ovk": "OVK Škofja Loka 1",
+      "okraj": "ŠKOFJA LOKA",
+      "ime": "Upravna enota Škofja Loka",
+      "naslov": "Poljanska cesta 2",
+      "posta": "4220 Škofja Loka",
+      "geo_latlng": [46.16410091687734, 14.306673468703755]
+    },
+    {
+      "ve": 1,
+      "ovk": "OVK Škofja Loka 2",
+      "okraj": "ŠKOFJA LOKA",
+      "ime": "Občina Železniki",
+      "naslov": "Češnjica 48",
+      "posta": "4228 Železniki",
+      "geo_latlng": [46.22618, 14.17506]
+    },
+    {
+      "ve": 1,
+      "ovk": "OVK Škofja Loka 2",
+      "okraj": "ŠKOFJA LOKA",
+      "ime": "Občina Gorenja vas - Poljane",
+      "naslov": "Poljanska cesta 87",
+      "posta": "4224 Gorenja vas",
+      "geo_latlng": [46.10561, 14.13852]
+    },
+    {
+      "ve": 1,
+      "ovk": "OVK Kamnik",
+      "okraj": "KAMNIK",
+      "ime": "Občina Kamnik",
+      "naslov": "Glavni trg 24",
+      "posta": "1240 Kamnik",
+      "geo_latlng": [46.2263678, 14.6122718]
+    },
+    {
+      "ve": 1,
+      "ovk": "OVK Idrija",
+      "okraj": "IDRIJA",
+      "ime": "Upravna enota Idrija",
+      "naslov": "Študentovska ulica 2",
+      "posta": "5280 Idrija",
+      "geo_latlng": [46.0012824, 14.021122]
+    },
+    {
+      "ve": 2,
+      "ovk": "OVK Tolmin",
+      "okraj": "TOLMIN",
+      "ime": "Upravna enota Tolmin",
+      "naslov": "Tumov drevored 4",
+      "posta": "5220 Tolmin",
+      "geo_latlng": [46.1830875, 13.7313531]
+    },
+    {
+      "ve": 2,
+      "ovk": "OVK Piran",
+      "okraj": "PIRAN",
+      "ime": "Upravna enota Piran",
+      "naslov": "Obala 114a",
+      "posta": "6320 Portorož",
+      "geo_latlng": [45.5025042, 13.6031774]
+    },
+    {
+      "ve": 2,
+      "ovk": "OVK Izola",
+      "okraj": "IZOLA",
+      "ime": "Upravna enota Izola",
+      "naslov": "Cesta v Pregavor 3A",
+      "posta": "6310 Izola",
+      "geo_latlng": [45.5299253, 13.6669793]
+    },
+    {
+      "ve": 2,
+      "ovk": "OVK Koper 1, 2",
+      "okraj": "KOPER",
+      "ime": "Arena Bonifika (dvojezično volišče)",
+      "naslov": "Cesta Zore - Perello Godina 3",
+      "posta": "6000 Koper",
+      "geo_latlng": [45.543434, 13.726961]
+    },
+    {
+      "ve": 2,
+      "ovk": "OVK Sežana",
+      "okraj": "SEŽANA",
+      "ime": "Stara stavba Občine Sežana",
+      "naslov": "Partizanska cesta 4",
+      "posta": "6210 Sežana",
+      "geo_latlng": [45.71000719986846, 13.874054640256531]
+    },
+    {
+      "ve": 2,
+      "ovk": "OVK Ilirska Bistrica",
+      "okraj": "ILIRSKA BISTRICA",
+      "ime": "Dom na Vidmu",
+      "naslov": "Gregorčičeva cesta 2",
+      "posta": "6250 Ilirska Bistrica",
+      "geo_latlng": [45.5638075, 14.2446335]
+    },
+    {
+      "ve": 2,
+      "ovk": "OVK Postojna",
+      "okraj": "POSTOJNA",
+      "ime": "Galerija na vogalu Kulturnega doma Postojna",
+      "naslov": "Gregorčičev drevored 2b",
+      "posta": "6230 Postojna",
+      "geo_latlng": [45.7750164, 14.2139278]
+    },
+    {
+      "ve": 2,
+      "ovk": "OVK Nova Gorica 1,2",
+      "okraj": "NOVA GORICA",
+      "ime": "Upravna enota Nova Gorica",
+      "naslov": "Trg Edvarda Kardelja 1",
+      "posta": "5000 Nova Gorica",
+      "geo_latlng": [45.9572629, 13.6488414]
+    },
+    {
+      "ve": 2,
+      "ovk": "OVK Ajdovščina",
+      "okraj": "AJDOVŠČINA",
+      "ime": "Upravna enota Ajdovščina",
+      "naslov": "Vipavska cesta 11b",
+      "posta": "5270 Ajdovščina",
+      "geo_latlng": [45.8854392, 13.9115639]
+    },
+    {
+      "ve": 3,
+      "ovk": "OVK Logatec",
+      "okraj": "LOGATEC",
+      "ime": "Upravni center Logatec",
+      "naslov": "Tržaška cesta 50A",
+      "posta": "1370 Logatec",
+      "geo_latlng": [45.9176349, 14.2225675]
+    },
+    {
+      "ve": 3,
+      "ovk": "OVK Logatec",
+      "okraj": "LOGATEC",
+      "ime": "Upravna enota Cerknica",
+      "naslov": "Cesta 4. maja 24",
+      "posta": "1380 Cerknica",
+      "geo_latlng": [45.793266, 14.3666196]
+    },
+    {
+      "ve": 3,
+      "ovk": "OVK Vrhnika",
+      "okraj": "VRHNIKA",
+      "ime": "Upravna enota Vrhnika",
+      "naslov": "Stara Vrhnika 1d",
+      "posta": "1360 Vrhnika",
+      "geo_latlng": [45.9660045, 14.2985383]
+    },
+    {
+      "ve": 3,
+      "ovk": "OVK Ljubljana - Vič Rudnik 1",
+      "okraj": "LJUBLJANA",
+      "ime": "Občina Ig (pritlična soba)",
+      "naslov": "Govekarjeva cesta 6",
+      "posta": "1292 Ig",
+      "geo_latlng": [45.95961145696687, 14.527998724647198]
+    },
+    {
+      "ve": 3,
+      "ovk": "OVK Ljubljana - Vič Rudnik 1",
+      "okraj": "LJUBLJANA",
+      "ime": "Dom krajanov Notranje Gorice",
+      "naslov": "Podpeška cesta 380",
+      "posta": "1357 Notranje Gorice",
+      "geo_latlng": [45.989618833068356, 14.402732010414928]
+    },
+    {
+      "ve": 3,
+      "ovk": "OVK Ljubljana - Vič Rudnik 2",
+      "okraj": "LJUBLJANA",
+      "ime": "Kulturni dom Lavrica",
+      "naslov": "Dolenjska cesta 327",
+      "posta": "1291 Škofljica",
+      "geo_latlng": [46.00174756734812, 14.554521270634522]
+    },
+    {
+      "ve": 3,
+      "ovk": "OVK Ljubljana - Vič Rudnik 3",
+      "okraj": "LJUBLJANA",
+      "ime": "Četrtna skupnost Rožnik",
+      "naslov": "Viška cesta 38",
+      "posta": "1000 Ljubljana",
+      "geo_latlng": [46.04235978360372, 14.470302983433587]
+    },
+    {
+      "ve": 3,
+      "ovk": "OVK Ljubljana - Vič Rudnik 4",
+      "okraj": "LJUBLJANA",
+      "ime": "Upravna enota Ljubljana",
+      "naslov": "Tobačna ulica 5",
+      "posta": "1000 Ljubljana",
+      "geo_latlng": [46.04816970589286, 14.492819093775092]
+    },
+    {
+      "ve": 3,
+      "ovk": "OVK Ljubljana - Center",
+      "okraj": "LJUBLJANA",
+      "ime": "Prostori MOL",
+      "naslov": "Kebetova ulica 1",
+      "posta": "1000 Ljubljana",
+      "geo_latlng": [46.071447653433836, 14.49113230532011]
+    },
+    {
+      "ve": 3,
+      "ovk": "OVK Ljubljana - Šiška 1",
+      "okraj": "LJUBLJANA",
+      "ime": "Prostori MOL",
+      "naslov": "Kebetova ulica 1",
+      "posta": "1000 Ljubljana",
+      "geo_latlng": [46.071447653433836, 14.49113230532011]
+    },
+    {
+      "ve": 3,
+      "ovk": "OVK Ljubljana - Šiška 2",
+      "okraj": "LJUBLJANA",
+      "ime": "Četrtna skupnost Dravlje",
+      "naslov": "Draveljska ulica 44",
+      "posta": "1000 Ljubljana",
+      "geo_latlng": [46.08019152667274, 14.473556569150936]
+    },
+    {
+      "ve": 3,
+      "ovk": "OVK Ljubljana - Šiška 3",
+      "okraj": "LJUBLJANA",
+      "ime": "Galerija Gunclje",
+      "naslov": "Kosijeva 1",
+      "posta": "1000 Ljubljana",
+      "geo_latlng": [46.102693646661805, 14.45329741961136]
+    },
+    {
+      "ve": 3,
+      "ovk": "OVK Ljubljana - Šiška 4",
+      "okraj": "LJUBLJANA",
+      "ime": "Občina Medvode",
+      "naslov": "Cesta komandanta Staneta 12",
+      "posta": "1215 Medvode",
+      "geo_latlng": [46.14015808869039, 14.414483001305873]
+    },
+    {
+      "ve": 4,
+      "ovk": "OVK Kočevje",
+      "okraj": "KOČEVJE",
+      "ime": "Občina Kočevje",
+      "naslov": "Ljubljanska cesta 26",
+      "posta": "1330 Kočevje",
+      "geo_latlng": [45.64297451050395, 14.85569491816665]
+    },
+    {
+      "ve": 4,
+      "ovk": "OVK Ribnica-Dobrepolje",
+      "okraj": "RIBNICA",
+      "ime": "Upravna enota Ribnica",
+      "naslov": "Gorenjska cesta 9",
+      "posta": "1310 Ribnica",
+      "geo_latlng": [45.7419938, 14.7274]
+    },
+    {
+      "ve": 4,
+      "ovk": "OVK Ribnica-Dobrepolje",
+      "okraj": "RIBNICA",
+      "ime": "Jakličev dom",
+      "naslov": "Videm 34",
+      "posta": "1312 Videm Dobrepolje",
+      "geo_latlng": [45.84904680097452, 14.695289668690993]
+    },
+    {
+      "ve": 4,
+      "ovk": "OVK Grosuplje",
+      "okraj": "GROSUPLJE",
+      "ime": "Družbeni dom Grosuplje",
+      "naslov": "Taborska cesta 1",
+      "posta": "1290 Grosuplje",
+      "geo_latlng": [45.9571274, 14.6533203]
+    },
+    {
+      "ve": 4,
+      "ovk": "OVK Ivančna Gorica",
+      "okraj": "IVANČNA GORICA",
+      "ime": "Zdravstveni dom Ivančna Gorica",
+      "naslov": "Cesta 2. grupe odredov 16A",
+      "posta": "1295 Ivančna Gorica",
+      "geo_latlng": [45.937863, 14.8044599]
+    },
+    {
+      "ve": 4,
+      "ovk": "OVK Ljubljana - Moste Polje 1",
+      "okraj": "LJUBLJANA",
+      "ime": "Prostori MOL (Polje)",
+      "naslov": "Zaloška cesta 160",
+      "posta": "1000 Ljubljana",
+      "geo_latlng": [46.053974541323136, 14.582343938503259]
+    },
+    {
+      "ve": 4,
+      "ovk": "OVK Ljubljana - Moste Polje 2",
+      "okraj": "LJUBLJANA",
+      "ime": "Dom občanov Nove Fužine",
+      "naslov": "Preglov trg 15",
+      "posta": "1000 Ljubljana",
+      "geo_latlng": [46.054290940143844, 14.558561757959222]
+    },
+    {
+      "ve": 4,
+      "ovk": "OVK Ljubljana - Moste Polje 3",
+      "okraj": "LJUBLJANA",
+      "ime": "Park Kodeljevo - Šport Ljubljana (sejna soba pritličje)",
+      "naslov": "Gortanova 21",
+      "posta": "1000 Ljubljana",
+      "geo_latlng": [46.0504603316327, 14.533208208648544]
+    },
+    {
+      "ve": 4,
+      "ovk": "OVK Ljubljana - Bežigrad 1",
+      "okraj": "LJUBLJANA",
+      "ime": "Prostori MOL",
+      "naslov": "Dunajska cesta 367, Ljubljana Črnuče",
+      "posta": "1000 Ljubljana",
+      "geo_latlng": [46.10313833193686, 14.531137982769827]
+    },
+    {
+      "ve": 4,
+      "ovk": "OVK Ljubljana - Bežigrad 2",
+      "okraj": "LJUBLJANA",
+      "ime": "Velika konferenčna dvorana Upravne enote Ljubljana",
+      "naslov": "Linhartova cesta 13",
+      "posta": "1000 Ljubljana",
+      "geo_latlng": [46.06474278956412, 14.513972247616676]
+    },
+    {
+      "ve": 4,
+      "ovk": "OVK Domžale 1-2",
+      "okraj": "DOMŽALE",
+      "ime": "Društvo Lipa Domžale",
+      "naslov": "Ljubljanska cesta 58",
+      "posta": "1230 Domžale",
+      "geo_latlng": [46.1380262, 14.5910958]
+    },
+    {
+      "ve": 5,
+      "ovk": "OVK Šentjur",
+      "okraj": "ŠENTJUR",
+      "ime": "Občina Šentjur",
+      "naslov": "Mestni trg 10",
+      "posta": "3230 Šentjur",
+      "geo_latlng": [46.21718044504577, 15.393822397941685]
+    },
+    {
+      "ve": 5,
+      "ovk": "OVK Celje 1",
+      "okraj": "CELJE",
+      "ime": "Mestna četrt Hudinja",
+      "naslov": "Ulica Frankolovskih žrtev 17A",
+      "posta": "3000 Celje",
+      "geo_latlng": [46.251151242682525, 15.27569666469152]
+    },
+    {
+      "ve": 5,
+      "ovk": "OVK Celje 2",
+      "okraj": "CELJE",
+      "ime": "Upravna enota Celje",
+      "naslov": "Ljubljanska cesta 1",
+      "posta": "3000 Celje",
+      "geo_latlng": [46.22965451897875, 15.26116531337634]
+    },
+    {
+      "ve": 5,
+      "ovk": "OVK Žalec 1",
+      "okraj": "ŽALEC",
+      "ime": "Upravna enota Žalec",
+      "naslov": "Ulica Savinjske čete 5",
+      "posta": "3310 Žalec",
+      "geo_latlng": [46.25077138001339, 15.163688899026017]
+    },
+    {
+      "ve": 5,
+      "ovk": "OVK Žalec 2",
+      "okraj": "ŽALEC",
+      "ime": "Občina Prebold",
+      "naslov": "Hmeljarska cesta 3",
+      "posta": "3312 Prebold",
+      "geo_latlng": [46.23720883350828, 15.093050850641369]
+    },
+    {
+      "ve": 5,
+      "ovk": "OVK Mozirje",
+      "okraj": "MOZIRJE",
+      "ime": "Upravni center Mozirje",
+      "naslov": "Šmihelska cesta 2",
+      "posta": "3330 Mozirje",
+      "geo_latlng": [46.3406173, 14.9656081]
+    },
+    {
+      "ve": 5,
+      "ovk": "OVK Velenje 1",
+      "okraj": "VELENJE",
+      "ime": "Upravna enota Velenje",
+      "naslov": "Rudarska cesta 6a",
+      "posta": "3320 Velenje",
+      "geo_latlng": [46.359228166302245, 15.113676909283207]
+    },
+    {
+      "ve": 5,
+      "ovk": "OVK Velenje 2",
+      "okraj": "VELENJE",
+      "ime": "Kreativni center Čuk",
+      "naslov": "Stari trg 11",
+      "posta": "3320 Velenje",
+      "geo_latlng": [46.35802965903692, 15.109706542738492]
+    },
+    {
+      "ve": 5,
+      "ovk": "OVK Slovenj Gradec",
+      "okraj": "SLOVENJ GRADEC",
+      "ime": "Upravna enota Slovenj Gradec",
+      "naslov": "Meškova ulica 21",
+      "posta": "2380 Slovenj Gradec",
+      "geo_latlng": [46.5104498, 15.0813811]
+    },
+    {
+      "ve": 5,
+      "ovk": "OVK Ravne na Koroškem",
+      "okraj": "RAVNE NA KOROŠKEM",
+      "ime": "Občina Ravne na Koroškem",
+      "naslov": "Gačnikova pot 5",
+      "posta": "2390 Ravne na Koroškem",
+      "geo_latlng": [46.543949061233235, 14.962725701644002]
+    },
+    {
+      "ve": 5,
+      "ovk": "OVK Radlje",
+      "okraj": "RADLJE OB DRAVI",
+      "ime": "Upravna enota Radlje ob Dravi",
+      "naslov": "Mariborska cesta 7",
+      "posta": "2360 Radlje ob Dravi",
+      "geo_latlng": [46.6146927, 15.2246171]
+    },
+    {
+      "ve": 5,
+      "ovk": "OVK Radlje",
+      "okraj": "RADLJE",
+      "ime": "Upravna enota Dravograd",
+      "naslov": "Meža 10",
+      "posta": "2370 Dravograd",
+      "geo_latlng": [46.58694694961713, 15.025326415139657]
+    },
+    {
+      "ve": 6,
+      "ovk": "OVK Črnomelj",
+      "okraj": "ČRNOMELJ",
+      "ime": "Upravna enota Črnomelj",
+      "naslov": "Zadružna cesta 16",
+      "posta": "8340 Črnomelj",
+      "geo_latlng": [45.5793494, 15.1959635]
+    },
+    {
+      "ve": 6,
+      "ovk": "OVK Črnomelj",
+      "okraj": "ČRNOMELJ",
+      "ime": "Upravna enota Metlika",
+      "naslov": "Naselje Borisa Kidriča 14",
+      "posta": "8330 Metlika",
+      "geo_latlng": [45.64574898000891, 15.317331259288274]
+    },
+    {
+      "ve": 6,
+      "ovk": "OVK Novo mesto 1-2",
+      "okraj": "NOVO MESTO",
+      "ime": "Upravna enota Novo mesto",
+      "naslov": "Defranceschijeva ulica 1",
+      "posta": "8000 Novo mesto",
+      "geo_latlng": [45.8039406, 15.1647527]
+    },
+    {
+      "ve": 6,
+      "ovk": "OVK Trebnje",
+      "okraj": "TREBNJE",
+      "ime": "Občina Trebnje",
+      "naslov": "Goliev trg 5",
+      "posta": "8210 Trebnje",
+      "geo_latlng": [45.90816427559304, 15.007765640262358]
+    },
+    {
+      "ve": 6,
+      "ovk": "OVK Brežice",
+      "okraj": "BREŽICE",
+      "ime": "Upravna enota Brežice",
+      "naslov": "Cesta prvih borcev 24a",
+      "posta": "8250 Brežice",
+      "geo_latlng": [45.9043717, 15.592799]
+    },
+    {
+      "ve": 6,
+      "ovk": "OVK Krško",
+      "okraj": "KRŠKO",
+      "ime": "Občina Krško",
+      "naslov": "Cesta krških žrtev 14",
+      "posta": "8270 Krško",
+      "geo_latlng": [45.9665566, 15.4849063]
+    },
+    {
+      "ve": 6,
+      "ovk": "OVK Sevnica",
+      "okraj": "SEVNICA",
+      "ime": "Občina Sevnica",
+      "naslov": "Glavni trg 19a",
+      "posta": "8290 Sevnica",
+      "geo_latlng": [46.0057241, 15.3155368]
+    },
+    {
+      "ve": 6,
+      "ovk": "OVK Laško",
+      "okraj": "LAŠKO",
+      "ime": "Kulturni dom",
+      "naslov": "Gledališka pot 2",
+      "posta": "1433 Radeče",
+      "geo_latlng": [46.06586447827272, 15.182242070989107]
+    },
+    {
+      "ve": 6,
+      "ovk": "OVK Laško",
+      "okraj": "LAŠKO",
+      "ime": "Občina Laško (energetsko svetovalna pisarna)",
+      "naslov": "Mestna ulica 2",
+      "posta": "3270 Laško",
+      "geo_latlng": [46.154165306281065, 15.235332311434231]
+    },
+    {
+      "ve": 6,
+      "ovk": "OVK Litija",
+      "okraj": "LITIJA",
+      "ime": "Občina Litija",
+      "naslov": "Jerebova ulica 14",
+      "posta": "1270 Litija",
+      "geo_latlng": [46.0564434, 14.8309441]
+    },
+    {
+      "ve": 6,
+      "ovk": "OVK Hrastnik - Trbovlje",
+      "okraj": "TRBOVLJE",
+      "ime": "Upravna zgradba Hrastnik",
+      "naslov": "Pot Vitka Pavliča 5",
+      "posta": "1430 Hrastnik",
+      "geo_latlng": [46.14604004373651, 15.081620684445138]
+    },
+    {
+      "ve": 6,
+      "ovk": "OVK Hrastnik - Trbovlje",
+      "okraj": "TRBOVLJE",
+      "ime": "Upravna zgradba Trbovlje",
+      "naslov": "Mestni trg 4",
+      "posta": "1420 Trbovlje",
+      "geo_latlng": [46.1562802, 15.0540445]
+    },
+    {
+      "ve": 6,
+      "ovk": "OVK Zagorje",
+      "okraj": "ZAGORJE OB SAVI",
+      "ime": "Weinbergerjeva hiša",
+      "naslov": "Cesta 9. avgusta 4",
+      "posta": "1410 Zagorje ob Savi",
+      "geo_latlng": [46.13455207394002, 14.995311584444794]
+    },
+    {
+      "ve": 7,
+      "ovk": "OVK Šmarje pri Jelšah",
+      "okraj": "ŠMARJE PRI JELŠAH",
+      "ime": "Kulturni dom Šmarje pri Jelšah",
+      "naslov": "Aškerčev trg 20",
+      "posta": "3240 Šmarje pri Jelšah",
+      "geo_latlng": [46.2282002, 15.518307]
+    },
+    {
+      "ve": 7,
+      "ovk": "OVK Slovenska Bistrica",
+      "okraj": "SLOVENSKA BISTRICA",
+      "ime": "Občina Slovenska Bistrica",
+      "naslov": "Kolodvorska 10",
+      "posta": "2310 Slovenska Bistrica",
+      "geo_latlng": [46.3919326, 15.5755427]
+    },
+    {
+      "ve": 7,
+      "ovk": "OVK Slovenske Konjice",
+      "okraj": "SLOVENSKE KONJICE",
+      "ime": "Občina Slovenske Konjice",
+      "naslov": "Stari trg 29",
+      "posta": "3210 Slovenske Konjice",
+      "geo_latlng": [46.337139, 15.4220251]
+    },
+    {
+      "ve": 7,
+      "ovk": "OVK Ruše",
+      "okraj": "RUŠE",
+      "ime": "Upravna enota Ruše",
+      "naslov": "Mariborska cesta 31",
+      "posta": "2342 Ruše",
+      "geo_latlng": [46.541289, 15.518618]
+    },
+    {
+      "ve": 7,
+      "ovk": "OVK Maribor 1",
+      "okraj": "MARIBOR",
+      "ime": "Kulturni dom Kamnica",
+      "naslov": "Vrbanska 97",
+      "posta": "2351 Kamnica",
+      "geo_latlng": [46.573405835239825, 15.61543441329288]
+    },
+    {
+      "ve": 7,
+      "ovk": "OVK Maribor 1",
+      "okraj": "MARIBOR",
+      "ime": "Kulturni dom Zgornja Polskava",
+      "naslov": "Mladinska ulica 12",
+      "posta": "2314 Zgornja Polskava",
+      "geo_latlng": [46.427043, 15.610816]
+    },
+    {
+      "ve": 7,
+      "ovk": "OVK Maribor 2",
+      "okraj": "MARIBOR",
+      "ime": "Kulturni dom Hoče",
+      "naslov": "Pohorska ulica 15",
+      "posta": "2311 Hoče",
+      "geo_latlng": [46.49869222765912, 15.646701453773794]
+    },
+    {
+      "ve": 7,
+      "ovk": "OVK Maribor 2",
+      "okraj": "MARIBOR",
+      "ime": "MČ Tezno",
+      "naslov": "Panonska ulica 12",
+      "posta": "2000 Maribor",
+      "geo_latlng": [46.52870379818589, 15.680287497555142]
+    },
+    {
+      "ve": 7,
+      "ovk": "OVK Maribor 3",
+      "okraj": "MARIBOR",
+      "ime": "Mestna četrt Brezje",
+      "naslov": "Na trati 2",
+      "posta": "2000 Maribor",
+      "geo_latlng": [46.53605118806959, 15.687809422523719]
+    },
+    {
+      "ve": 7,
+      "ovk": "OVK Maribor 4",
+      "okraj": "MARIBOR",
+      "ime": "Razstavni salon",
+      "naslov": "Grajska ulica 7",
+      "posta": "2000 Maribor",
+      "geo_latlng": [46.5610717, 15.6481454]
+    },
+    {
+      "ve": 7,
+      "ovk": "OVK Maribor 5",
+      "okraj": "MARIBOR",
+      "ime": "Dom Lizike Jančar",
+      "naslov": "Titova cesta 24a",
+      "posta": "2000 Maribor",
+      "geo_latlng": [46.55002390719887, 15.649014835066266]
+    },
+    {
+      "ve": 7,
+      "ovk": "OVK Maribor 6",
+      "okraj": "MARIBOR",
+      "ime": "Mestna četrt Radvanje",
+      "naslov": "Lackova cesta 43B",
+      "posta": "2000 Maribor",
+      "geo_latlng": [46.53740109023999, 15.611443043179754]
+    },
+    {
+      "ve": 7,
+      "ovk": "OVK Maribor 7",
+      "okraj": "MARIBOR",
+      "ime": "Mestna četrt Tabor",
+      "naslov": "Metelkova 63",
+      "posta": "2000 Maribor",
+      "geo_latlng": [46.542192908132144, 15.643816147666335]
+    },
+    {
+      "ve": 8,
+      "ovk": "OVK Lendava",
+      "okraj": "LENDAVA",
+      "ime": "Upravna enota Lendava",
+      "naslov": "Trg Ljudske pravice 5",
+      "posta": "9220 Lendava",
+      "geo_latlng": [46.56360271401395, 16.454023141232593]
+    },
+    {
+      "ve": 8,
+      "ovk": "OVK Ormož",
+      "okraj": "ORMOŽ",
+      "ime": "Upravna enota Ormož",
+      "naslov": "Ptujska cesta 6",
+      "posta": "2270 Ormož",
+      "geo_latlng": [46.517832593412685, 16.19508719755461]
+    },
+    {
+      "ve": 8,
+      "ovk": "OVK Ljutomer",
+      "okraj": "LJUTOMER",
+      "ime": "Upravna enota Ljutomer",
+      "naslov": "Vrazova ulica 1",
+      "posta": "9240 Ljutomer",
+      "geo_latlng": [46.5176702, 16.1950872]
+    },
+    {
+      "ve": 8,
+      "ovk": "OVK Murska Sobota 1,2",
+      "okraj": "MURSKA SOBOTA",
+      "ime": "Mestna občina Murska Sobota",
+      "naslov": "Kardoševa ulica 2",
+      "posta": "9000 Murska Sobota",
+      "geo_latlng": [46.6627224, 16.1639805]
+    },
+    {
+      "ve": 8,
+      "ovk": "OVK Gornja Radgona",
+      "okraj": "GORNJA RADGONA",
+      "ime": "Upravna enota Gornja Radgona",
+      "naslov": "Partizanska cesta 13",
+      "posta": "9250 Gornja Radgona",
+      "geo_latlng": [46.6775582, 15.9903462]
+    },
+    {
+      "ve": 8,
+      "ovk": "OVK Lenart",
+      "okraj": "LENART",
+      "ime": "Avla Upravna enota Lenart",
+      "naslov": "Trg osvoboditve 7",
+      "posta": "2230 Lenart v Slov. goricah",
+      "geo_latlng": [46.5759634, 15.83071]
+    },
+    {
+      "ve": 8,
+      "ovk": "OVK Pesnica",
+      "okraj": "PESNICA PRI MARIBORU",
+      "ime": "Večnamenski center Pesnica",
+      "naslov": "Pesnica pri Mariboru 41",
+      "posta": "2211 Pesnica pri Mariboru",
+      "geo_latlng": [46.6090269, 15.6779261]
+    },
+    {
+      "ve": 8,
+      "ovk": "OVK Ptuj 1,2,3",
+      "okraj": "PTUJ",
+      "ime": "Upravna enota Ptuj",
+      "naslov": "Slomškova ulica 10",
+      "posta": "2250 Ptuj",
+      "geo_latlng": [46.4214918, 15.8719051]
+    }
+  ]
+}
